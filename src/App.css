@@ -59,3 +59,37 @@
 }
 
 /* NAVBAR_END */
+
+
+/* DOREMIPA */
+
+.Doremipa{
+  background-color: #1A1A1A;
+}
+
+.subcategory{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  
+}
+.subcategorycard{
+  scale: 0.8;
+  height: 827px;
+  width: 617px;
+  display: flex;
+  border: 7px solid #fff;
+  border-radius: 30px;
+  padding: 0px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex-shrink: 1;
+}
+.subcategory img{
+  width: 100%;
+  display: inline-block;
+  border-radius: 20px;
+}
+/* DOREMIPA_END */
+

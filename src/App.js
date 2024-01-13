@@ -13,7 +13,9 @@ function App() {
   return (
     <div>
       <Navbar />
+      <Doremipa />
     </div>
+
   );
 }
 

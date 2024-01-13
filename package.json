@@ -35,5 +35,16 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "expo": {
+    "web": {
+      "build": {
+        "babel": {
+          "include": [
+            "static-container"
+          ]
+        }
+      }
+    }
   }
 }

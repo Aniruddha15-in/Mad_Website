@@ -71,6 +71,7 @@
 
 .Doremipa{
   background-color: #1A1A1A;
+  padding-top: 120px;
 }
 
 .subcategory{
@@ -97,6 +98,104 @@
   display: inline-block;
   border-radius: 20px;
 }
+
+.frame{
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  height: 197px;
+  overflow: hidden;
+  width: 1348px;
+  margin: auto;
+}
+
+.frame .div{
+  align-items: flex-end;
+  display: inline-flex;
+  gap: 160px;
+  left: 24px;
+  position: relative;
+  top: 31px;
+}
+
+.frame .div-2{
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+}
+
+.frame .text-wrapper{
+  color: #000;
+  font-family: "Inter-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.frame .div-wrapper{
+  background-color: #1A1A1A;
+  border-radius: 15px;
+  height: 100px;
+  opacity: 0.92;
+  overflow: hidden;
+  position: relative;
+  width: 200px;
+}
+
+.frame .text-wrapper-2{
+  color: #FFF;
+  font-family: "Manrope-SemiBold", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  left: 64px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 27px;
+}
+
+.frame .text-wrapper-3{
+  color: #000;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  position: relative;
+  width: fit-content;
+}
+
+.frame .text-wrapper-4{
+  color: #FFF;
+  font-family: "Manrope-SemiBold", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  left: 56px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 27px;
+
+}
+
+
+.frame .div-3{
+  align-items: flex-end;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 8px;
+  position: relative;
+}
+
 /* DOREMIPA_END */
 
 /* HOMEPAGE_START */

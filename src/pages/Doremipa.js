@@ -10,7 +10,39 @@ import SubCategoryCard from '../components/SubCategoryCard'
 const Doremipa = () => {
   return (
     <div className='Doremipa'>
-      <h1 style={{color: 'white', textAlign : 'center', margin: 0, fontFamily: "Inter", fontSize: '64px'}}>Sub-Categories</h1>
+      <div className="frame">
+        <div className="div">
+          <div className="div-2">
+            <div className="text-wrapper">Number of Participants</div>
+            <div className="div-wrapper">
+              <div className="text-wrapper-2">500+</div>
+            </div>
+          </div>
+          <div className="div-2">
+            <div className="text-wrapper">Footfall</div>
+            <div className="div-wrapper">
+              <div className="text-wrapper-2">3000+</div>
+            </div>
+          </div>
+          <div className="div-2">
+            <div className="text-wrapper-3">Prize Pool Worth</div>
+            <div className="div-wrapper">
+              <div className="text-wrapper-4">₹100k+</div>
+            </div>
+          </div>
+          <div className="div-3">
+            <div className="text-wrapper-3">Participating Colleges</div>
+            <div className="div-wrapper">
+              <div className="text-wrapper-2">100+</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+      <h1 style={{color: 'white', textAlign : 'center', margin: 0, fontFamily: "Manrope", fontSize: '64px', fontWeight: '700'}}>Sub-Categories</h1>
 
       <div className="subcategory">
         <SubCategoryCard alt = "Vocalicious" src = {ladygaga}/>

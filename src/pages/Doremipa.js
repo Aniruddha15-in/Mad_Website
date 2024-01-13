@@ -9,7 +9,6 @@ import SubCategoryCard from '../components/SubCategoryCard'
 
 const Doremipa = () => {
   return (
-<<<<<<< HEAD
     <div className='Doremipa'>
       <h1 style={{color: 'white', textAlign : 'center', margin: 0, fontFamily: "Inter", fontSize: '64px'}}>Sub-Categories</h1>
 
@@ -22,11 +21,6 @@ const Doremipa = () => {
         <SubCategoryCard alt = "Engi Idol" src = {rahman}/>
       </div>
 
-=======
-    <div>
-      DOREMIPA
->>>>>>> fefea31443c303394664153598adc32f9e240b8b
-    </div>
   )
 }
 

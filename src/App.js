@@ -14,11 +14,7 @@ function App() {
   return (
     <>
       <Navbar />
-<<<<<<< HEAD
-      <Doremipa />
     </div>
-
-=======
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/artist-spotlight" element={<Artists />} />
@@ -29,7 +25,6 @@ function App() {
       </Routes>
       <Footer />
     </>
->>>>>>> fefea31443c303394664153598adc32f9e240b8b
   );
 }
 

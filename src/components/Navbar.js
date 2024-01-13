@@ -9,6 +9,9 @@ const Navbar = () => {
         <img src={navLogo} />
         <Link to="/" className='navbar-sec1-link'>MADHURIMA</Link>
       </div>
+      <div className='navbar-secmid'>
+        <p>The Music Society of Delhi Technological University</p>
+      </div>
       <div className='navbar-sec2'>
         <Link to="/doremipa" className='navbar-link'><p>Do Re Mi Pa</p></Link>
         <Link to="/accolades" className='navbar-link'><p>Accolades</p></Link>

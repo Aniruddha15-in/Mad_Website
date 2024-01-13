@@ -20,7 +20,7 @@ const Doremipa = () => {
         <SubCategoryCard alt = "Vrind" src = {vrind}/>
         <SubCategoryCard alt = "Engi Idol" src = {rahman}/>
       </div>
-
+    </div>
   )
 }
 

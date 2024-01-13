@@ -9,12 +9,10 @@ import Events from "./pages/Events";
 import Footer from "./components/Footer";
 import "./App.css";
 
-
 function App() {
   return (
     <>
       <Navbar />
-    </div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/artist-spotlight" element={<Artists />} />

@@ -6,10 +6,13 @@ import tim from "../assets/Prelude-100.jpg"
 import vrind from "../assets/Vrind-100.jpg"
 import rahman from "../assets/Engi Idol-100.jpg"
 import SubCategoryCard from '../components/SubCategoryCard'
+import AboutDoremipaCard from '../components/AboutDoremipaCard'
 
 const Doremipa = () => {
   return (
     <div className='Doremipa'>
+      <AboutDoremipaCard />
+
       <div className="frame">
         <div className="div">
           <div className="div-2">

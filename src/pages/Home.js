@@ -1,5 +1,4 @@
 import React from "react";
-import about from "../assets/home-about.png";
 import hero from "../assets/440-home.jpg";
 import sponsor1 from "../assets/sponsor-logo1.png";
 import sponsor2 from "../assets/sponsor-logo2.png";

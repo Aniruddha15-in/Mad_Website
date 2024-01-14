@@ -280,17 +280,14 @@
   margin-left: 10vw;
   margin-right: 10vw;
   border-radius: 30px;
-  height: 70vh;
+  height: 58vh;
   overflow: hidden;
 }
 
 .about-home img{
   object-fit: contain;
-  width: 760px;
-  height: 710px;
   margin-left: -1px;
-  /* padding-left: 60px; */
-  margin-right: 80px;
+  margin-right: 700px;
 }
 
 .content-home{

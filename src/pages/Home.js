@@ -7,7 +7,7 @@ import sponsor3 from "../assets/sponsor-logo3.png";
 import sponsor4 from "../assets/sponsor-logo4.png";
 import sponsor5 from "../assets/sponsor-logo5.png";
 import IGcomponent from "../components/IGcomponent";
-
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   return (
@@ -57,7 +57,21 @@ const Home = () => {
         </div>
       </div>
       <div className="ig-embed">
-        <IGcomponent />
+        <div className="ig-small">
+          <IGcomponent/>
+        </div>
+        <div
+          class="tagembed-container ig-big"
+          style={{ width:"98vw", height:"80vh", overflow: "auto"}}
+        >
+          <div class="tagembed-socialwall" data-wall-id="132529" ></div>{" "}
+          <Helmet>
+              <script
+                src="//widget.tagembed.com/embed.min.js"
+                type="text/javascript"
+              ></script>
+          </Helmet>
+        </div>
       </div>
     </div>
   );

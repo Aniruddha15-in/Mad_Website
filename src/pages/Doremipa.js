@@ -7,10 +7,14 @@ import vrind from "../assets/Vrind-100.jpg"
 import rahman from "../assets/Engi Idol-100.jpg"
 import SubCategoryCard from '../components/SubCategoryCard'
 import AboutDoremipaCard from '../components/AboutDoremipaCard'
+import hero from "../assets/Doremipa-hero.jpg"
 
 const Doremipa = () => {
   return (
     <div className='Doremipa'>
+      <div className="hero-doremipa">
+        <img src={hero} alt="Doremipa Hero" />
+      </div>
       <AboutDoremipaCard />
 
       <div className="frame">

@@ -5,7 +5,7 @@
   position: fixed;
   z-index: 99;
   width: 100vw;
-  scale: auto;
+  scale: 0.7;
 }
 
 .navbar-sec1{

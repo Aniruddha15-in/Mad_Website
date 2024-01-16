@@ -1,16 +1,36 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import { Link, useNavigate } from "react-router-dom";
 import navLogo from "../assets/logo-nav.png";
 
 const Navbar = () => {
+
+  const [scrolled, setScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      if (scrollTop > 100) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <div className='navbar'>
-      <div className='navbar-sec1'>
-        <img src={navLogo} />
-        <Link to="/" className='navbar-sec1-link'>MADHURIMA</Link>
-      </div>
-      <div className='navbar-secmid'>
-        <p>The Music Society of Delhi Technological University</p>
+      <div className={`${scrolled ? "nav-dontdisplay" : "nav-display"}`}>
+        <div className='navbar-sec1'>
+          <img src={navLogo} />
+          <Link to="/" className='navbar-sec1-link'>MADHURIMA</Link>
+        </div>
+        <div className='navbar-secmid'>
+          <p>The Music Society of Delhi Technological University</p>
+        </div>
       </div>
       <div className='navbar-sec2'>
         <Link to="/doremipa" className='navbar-link'><p>Do Re Mi Pa</p></Link>

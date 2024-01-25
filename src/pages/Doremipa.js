@@ -51,7 +51,7 @@ const Doremipa = () => {
       <h1 style={{color: 'white', textAlign : 'center', marginBottom: "100px", fontFamily: "Manrope", fontSize: '64px', fontWeight: '600'}}>Sub-Categories</h1>
 
       <div className="subcategory">
-        <SubCategoryCard alt = "Vocalicious" src = {ladygaga}/>
+        <SubCategoryCard alt = "Vocalicious" src = {ladygaga} link={`https://www.google.com`}/>
         <SubCategoryCard alt = "Razzmatazz" src = {chester}/>
         <SubCategoryCard alt = "Balladeers" src = {pentatonix}/>
         <SubCategoryCard alt = "Prelude" src = {tim}/>

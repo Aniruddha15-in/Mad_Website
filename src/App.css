@@ -92,58 +92,90 @@
   /* margin-top: -10px; */
 }
 .subcategorycard{
+  position: relative;
   height: 621px;
   width: 463px;
   padding: 0px;
+  border-radius: 20px;
   margin: 40px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   flex-shrink: 1;
   overflow: hidden;
   opacity: 1;
-  transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease;
 }
 
 .subcategorycard .hovered{
+  position: relative;
   height: 621px;
   width: 463px;
   padding: 0px;
+  border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   flex-shrink: 1;
   overflow: hidden;
-  opacity: 0.5;
-  transition: opacity 0.5s ease-in-out;
+  opacity: 0.7;
+  scale: 1.027;
+  transition: all 0.5s ease;
 }
 
 .subcategory img{
+  position: relative;
   width: 100%;
-  display: inline-flex;
+  display: inline-block;
   border-radius: 20px;
 }
-/* 
-.subcategorycard .hovered .info{
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   display: flex;
-} */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgba(255, 255, 255, 0.8); Adjust the overlay color and opacity */
+  /* z-index: 1; */
+}
+
+.overlay .info{
+  color: #FFF;
+  font-family: "Manrope-SemiBold", Helvetica;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.info a:link{
+  color: #FFF;
+}
+
+.info a:visited{
+  color: #FFF;
+}
 
 .frame{
   background-color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   border-radius: 30px;
   height: 197px;
   overflow: hidden;
   width: 1348px;
-  margin-top: 50px;
+  margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 50px;
-  padding: 33px 33px;
+  margin-bottom: 30px;
+  padding: 10px 50px;
 }
 
 .frame .div{
-  align-items: flex-end;
-  display: inline-flex;
+  align-items: center;
+  display: flex;
   gap: 160px;
-  left: 24px;
   position: relative;
-  top: 31px;
 }
 
 .frame .div-2{
@@ -157,7 +189,7 @@
 
 .frame .text-wrapper{
   color: #000;
-  font-family: "Inter-Regular", Helvetica;
+  font-family: "Manrope-Regular", Helvetica;
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 0;

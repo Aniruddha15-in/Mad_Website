@@ -1,10 +1,10 @@
 import React from 'react'
-import chester from "../assets/Razzmatazz-100.jpg"
-import ladygaga from "../assets/Vocalicious-100.jpg"
-import pentatonix from "../assets/Balladeers-100.jpg"
-import tim from "../assets/Prelude-100.jpg"
-import vrind from "../assets/Vrind-100.jpg"
-import rahman from "../assets/Engi Idol-100.jpg"
+import chester from "../assets/subcategory/Razzmatazz-100.jpg"
+import ladygaga from "../assets/subcategory/Vocalicious-100.jpg"
+import pentatonix from "../assets/subcategory/Balladeers-100.jpg"
+import tim from "../assets/subcategory/Prelude-100.jpg"
+import vrind from "../assets/subcategory/Vrind-100.jpg"
+import rahman from "../assets/subcategory/Engi Idol-100.jpg"
 import SubCategoryCard from '../components/SubCategoryCard'
 import AboutDoremipaCard from '../components/AboutDoremipaCard'
 import hero from "../assets/Doremipa-hero.jpg"

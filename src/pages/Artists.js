@@ -7,7 +7,7 @@ import li from "../assets/linkedin-footer.png";
 
 const Artists = () => {
   return (
-    <div className='artistPage'>
+    <div className='artistPage' style={{paddingTop : "189px"}}>
       <div>
         <p className='heading-artistPage'>Our Alumni</p>
       </div>

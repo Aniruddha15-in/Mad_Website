@@ -1,10 +1,10 @@
 import React from 'react'
-import chester from "../assets/Razzmatazz-100.jpg"
-import ladygaga from "../assets/Vocalicious-100.jpg"
-import pentatonix from "../assets/Balladeers-100.jpg"
-import tim from "../assets/Prelude-100.jpg"
-import vrind from "../assets/Vrind-100.jpg"
-import rahman from "../assets/Engi Idol-100.jpg"
+import chester from "../assets/subcategory/Razzmatazz-100.jpg"
+import ladygaga from "../assets/subcategory/Vocalicious-100.jpg"
+import pentatonix from "../assets/subcategory/Balladeers-100.jpg"
+import tim from "../assets/subcategory/Prelude-100.jpg"
+import vrind from "../assets/subcategory/Vrind-100.jpg"
+import rahman from "../assets/subcategory/Engi Idol-100.jpg"
 import SubCategoryCard from '../components/SubCategoryCard'
 import AboutDoremipaCard from '../components/AboutDoremipaCard'
 import hero from "../assets/Doremipa-hero.jpg"
@@ -15,12 +15,11 @@ const Doremipa = () => {
       <div className="hero-doremipa">
         <img src={hero} alt="Doremipa Hero" />
       </div>
-      <AboutDoremipaCard />
 
       <div className="frame">
         <div className="div">
           <div className="div-2">
-            <div className="text-wrapper">Number of Participants</div>
+            <div className="text-wrapper">No. of Participants</div>
             <div className="div-wrapper">
               <div className="text-wrapper-2">500+</div>
             </div>
@@ -49,10 +48,10 @@ const Doremipa = () => {
 
 
 
-      <h1 style={{color: 'white', textAlign : 'center', margin: 0, fontFamily: "Manrope", fontSize: '64px', fontWeight: '700'}}>Sub-Categories</h1>
+      <h1 style={{color: 'white', textAlign : 'center', marginBottom: "100px", fontFamily: "Manrope", fontSize: '64px', fontWeight: '600'}}>Sub-Categories</h1>
 
       <div className="subcategory">
-        <SubCategoryCard alt = "Vocalicious" src = {ladygaga}/>
+        <SubCategoryCard alt = "Vocalicious" src = {ladygaga} link={`https://www.google.com`}/>
         <SubCategoryCard alt = "Razzmatazz" src = {chester}/>
         <SubCategoryCard alt = "Balladeers" src = {pentatonix}/>
         <SubCategoryCard alt = "Prelude" src = {tim}/>

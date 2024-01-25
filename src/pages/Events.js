@@ -46,7 +46,7 @@ const Events = () => {
                 <div className="text-wrapper">Kalamkaar</div>
               </div>
               <p className="text-wrapper-2">
-                Madhurima collaborates with Yuvaan- the literary fest of DTU to host an inter- college songwriting competition for budding songwriters 
+                Madhurima collaborates with Yuvaan - the Literary Fest of DTU to host an inter-college songwriting competition for budding songwriters.
               </p>
 
             </div>

@@ -15,12 +15,11 @@ const Doremipa = () => {
       <div className="hero-doremipa">
         <img src={hero} alt="Doremipa Hero" />
       </div>
-      <AboutDoremipaCard />
 
       <div className="frame">
         <div className="div">
           <div className="div-2">
-            <div className="text-wrapper">Number of Participants</div>
+            <div className="text-wrapper">No. of Participants</div>
             <div className="div-wrapper">
               <div className="text-wrapper-2">500+</div>
             </div>
@@ -49,7 +48,7 @@ const Doremipa = () => {
 
 
 
-      <h1 style={{color: 'white', textAlign : 'center', margin: 0, fontFamily: "Manrope", fontSize: '64px', fontWeight: '700'}}>Sub-Categories</h1>
+      <h1 style={{color: 'white', textAlign : 'center', marginBottom: "100px", fontFamily: "Manrope", fontSize: '64px', fontWeight: '600'}}>Sub-Categories</h1>
 
       <div className="subcategory">
         <SubCategoryCard alt = "Vocalicious" src = {ladygaga}/>

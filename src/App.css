@@ -5,6 +5,7 @@
   z-index: 99;
   width: 100vw;
   position: fixed;
+  /* display: none; */
 }
 
 .nav-dontdisplay{
@@ -68,6 +69,15 @@
   font-family: "Manrope", sans-serif;
   font-size: 24px;
   color: #FFFFFF;
+}
+
+.navLink-highlight{
+  background-color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 400;
+  font-family: "Manrope", sans-serif;
+  font-size: 24px;
+  color: #1A1A1A;
 }
 
 /* NAVBAR_END */
@@ -515,7 +525,7 @@
     align-items: center;
     background-color: #1A1A1A;
     height: auto;
-    margin-top: 
+    padding-top: 160px;
   }
 
   .heading-artistPage{
@@ -525,6 +535,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    /* margin-bottom: 20px; */
   }
 
   .artist-card{

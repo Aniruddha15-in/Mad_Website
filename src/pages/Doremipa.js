@@ -51,12 +51,12 @@ const Doremipa = () => {
       <h1 style={{color: 'white', textAlign : 'center', marginBottom: "100px", fontFamily: "Manrope", fontSize: '64px', fontWeight: '600'}}>Sub-Categories</h1>
 
       <div className="subcategory">
-        <SubCategoryCard alt = "Vocalicious" src = {ladygaga} link={`https://www.google.com`}/>
-        <SubCategoryCard alt = "Razzmatazz" src = {chester}/>
-        <SubCategoryCard alt = "Balladeers" src = {pentatonix}/>
-        <SubCategoryCard alt = "Prelude" src = {tim}/>
-        <SubCategoryCard alt = "Vrind" src = {vrind}/>
-        <SubCategoryCard alt = "Engi Idol" src = {rahman}/>
+        <SubCategoryCard alt = "Vocalicious" src = {ladygaga} link={`https://docs.google.com/forms/d/1bzLcU9_DJYQ645rsjy1OSYBN-T7ToTJAGjlvlM-JVos/viewform`}/>
+        <SubCategoryCard alt = "Razzmatazz" src = {chester} link={`https://docs.google.com/forms/d/11lAlYqlm23_r2iRaEe4xrigzeCczQ7sz5AOm3MM7L7I/viewform`}/>
+        <SubCategoryCard alt = "Balladeers" src = {pentatonix} link={`https://docs.google.com/forms/d/e/1FAIpQLScgh4g4dKUT_9mAg5eOGCqipSebarVpz2yHOoo1xq4WOkKpow/viewform`}/>
+        <SubCategoryCard alt = "Prelude" src = {tim} link={`https://docs.google.com/forms/d/1tsTUzdvBI5JorIBM2dc7VjQ0tTozqo8I0k5pctps7Ms/viewform`}/>
+        <SubCategoryCard alt = "Vrind" src = {vrind} link={`https://docs.google.com/forms/d/1FKvta2mzv_uG1B-qAO6XNwemvaVirSWxtHLm4CR-dQE/viewform`}/>
+        <SubCategoryCard alt = "Engi Idol" src = {rahman} link={`https://docs.google.com/forms/d/e/1FAIpQLScM3WZGY9Mn0R2O32sBrcYUDTpoYxCrQlGmYZbykegkg48ttw/viewform`}/>
       </div>
     </div>
   )

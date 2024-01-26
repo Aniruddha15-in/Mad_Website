@@ -23,7 +23,7 @@ const SubCategoryCard = ({
       <img className={`subcategory ${isHovered ? 'hovered' : ''} img`} alt={alt} src={src}/>
       {isHovered && (
         <div className="overlay">
-          <p className="info"><a href={link}>{link}</a></p>
+          <p className="info"><a href={link} target='_blank'>Registration Link</a></p>
         </div>
       )}
     </div>

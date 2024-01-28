@@ -8,8 +8,10 @@ const AboutDoremipaCard = () => {
           <img src={about} />
         </div>
         <div className="content-home">
-          <p className="p1content-home">About</p>
-          <p className="p2content-home">Do Re Mi Pa</p>
+          <div>
+            <p className="p1content-home">About</p>
+            <p className="p2content-home">DoReMiPa</p>
+          </div>
           <p className="p3content-home">
             DoReMiPa is the official annual inter-college music competition of
             Delhi Technological University(DTU) organized by Madhurima - the

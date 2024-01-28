@@ -16,7 +16,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 112px;
+  height: 100px;
   background-color: #1a1a1a;
 }
 
@@ -66,17 +66,25 @@
   text-decoration: none;
   font-weight: 400;
   font-family: "Manrope", sans-serif;
-  font-size: 24px;
+  font-size: 20px;
   color: #ffffff;
 }
 
 .navLink-highlight{
-  background-color: #FFFFFF;
+  display: flex;
+  padding: 10px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 0px 0px 8px 8px;
+  border-top: 1px solid #000;
+  background: #FFF;
   text-decoration: none;
   font-weight: 400;
   font-family: "Manrope", sans-serif;
-  font-size: 24px;
-  color: #1A1A1A;
+  font-size: 20px;
+  color: #000000;
+  height: 33px;
 }
 
 /* NAVBAR_END */
@@ -336,55 +344,60 @@
 }
 
 .about-home {
-  display: flex;
+  display: inline-flex;
+  height: 571.396px;
+  padding: 46.455px 174.206px 46.455px 0px;
   justify-content: center;
-  background-color: #ffffff;
   align-items: center;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  border-radius: 30px;
-  height: 58vh;
-  overflow: hidden;
+  gap: 106.137px;
+  flex-shrink: 0;
+  width: 90%;
+  border-radius: 34.841px;
+  background: #D9D9D9;
+  margin: 81px;
 }
 
 .about-home img {
-  object-fit: contain;
-  margin-left: -1px;
-  margin-right: 700px;
+  object-fit: cover;
+  margin-top: 3px;
+  height: 571.396px;
+  flex-shrink: 0;
+  border-radius: 23.227px 0px 0px 23.227px;
+  box-shadow: 2.686px 5.373px 5.373px 0px rgba(0, 0, 0, 0.37);
 }
 
 .content-home {
-  width: 180%;
-  height: 90%;
-  margin-right: 80px;
+  display: flex;
+  width: 666.629px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15.582px;
 }
 
 .p1content-home {
   color: #000;
-  font-family: "Inter";
-  font-size: 60px;
+  font-family: Manrope;
+  font-size: 74.328px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
-  margin: 20px 0px 0px 0px;
+  line-height: 100%; /* 74.328px */
 }
 
 .p2content-home {
   color: #000;
-  font-family: "Inter";
-  font-size: 60px;
+  font-family: Manrope;
+  font-size: 74.328px;
   font-style: normal;
   font-weight: 700;
-  line-height: normal;
-  margin: 0px 0px 25px 0px;
+  line-height: 100%;
 }
 
 .p3content-home {
+  /* width: 666.629px; */
+  /* height: 197.434px; */
   color: #000;
-  font-family: "Manrope", sans-serif;
-  font-size: 16px;
+  font-family: Manrope;
+  font-size: 17.421px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;

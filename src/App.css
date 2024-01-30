@@ -274,7 +274,7 @@
 }
 
 /* about doremipa card */
-.frame-2 {
+/* .frame-2 {
   background-color: #e8e8e8;
   border-radius: 30px;
   height: 569px;
@@ -316,7 +316,7 @@
 .frame-2 .text-wrapper-2 {
   font-family: "Manrope-Bold", Helvetica;
   font-weight: 700;
-}
+} */
 
 /* DOREMIPA_END */
 
@@ -362,7 +362,7 @@
   margin-top: 3px;
   height: 571.396px;
   flex-shrink: 0;
-  border-radius: 23.227px 0px 0px 23.227px;
+  border-radius: 34.84px 0px 0px 34.84px;
   box-shadow: 2.686px 5.373px 5.373px 0px rgba(0, 0, 0, 0.37);
 }
 
@@ -811,7 +811,171 @@
   transition: transform 0.3s ease-in-out;
 }
 .carousel__img:hover {
-  transform: scale(1.02);
+  transform: scale(1.015);
+}
+
+.carousel .our-acts{
+  position: absolute;
+  top: 45px;
+  left: 105px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 20px;
+  line-height: normal;
+  z-index: -1;
+  font-weight: 100;
+  color: #FFF;
+  text-shadow: 4px 2px 2px #000000bf;
 }
 
 /* CAROUSEL END */
+
+/* ABOUT US */
+.about{
+  background-color: #1a1a1a;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.about .council-text{
+  color: #FFF;
+  font-family: "Manrope-SemiBold", Helvetica;
+  text-align: center;
+  font-size: 64px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+}
+
+.about .year-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 133px;
+  gap: 12.25px;
+  padding: 10px 20px;
+  position: relative;
+  background-color: #fff;
+  border-radius: 4px;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+.year-wrapper .year{
+  position: relative;
+  width: fit-content;
+  color: #000;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1.22px;
+}
+
+.about .council-pos{
+  color: #FFF;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin: 45px;
+}
+
+.about .card-wrapper{
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 45px;
+  justify-content: center;
+  position: relative;
+}
+
+.about .council-column{
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 50px;
+  justify-content: center;
+  position: relative;
+}
+/* ABOUT US END */
+
+
+/* COUNCIL CARD */
+.council-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  width: 350px;
+  height: 479px;
+  margin-bottom: 100px;
+}
+
+.council-card .group{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 350px;
+  height: 479px;
+  
+}
+
+.council-card .overlap-group-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 411px;
+  left: 0px;
+  width: 352px;
+  height: 68px;
+}
+
+.council-card .overlap-group{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  width: 350px;
+  height: 68px;
+  background-color: #fff;
+  border-radius: 0px 0px 28px 28px;
+}
+
+.council-card .council-name{
+  position: absolute;
+  top: 16px;
+  left: 124px;
+  width: 102px;
+  height: auto;
+  color: #272727;
+  font-family: "Manrope-Medium", Helvetica;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+}
+
+.council-card .council-img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 350px;
+  height: 411px;
+  border-radius: 28px 28px 0px 0px;
+}
+
+
+
+/* COUNCIL CARD END */

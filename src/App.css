@@ -39,6 +39,12 @@
   text-decoration: none;
 }
 
+@media screen and (max-width: 1100px) {
+  .navbar-sec1-link {
+    font-size: 280%;
+  }
+}
+
 .navbar-secmid {
   display: flex;
   justify-content: center;
@@ -57,7 +63,7 @@
   display: flex;
   justify-content: space-evenly;
   border-bottom: 1px solid black;
-  height: 53px;
+  height: 40px;
   align-items: center;
   background-color: #1a1a1a;
 }
@@ -67,8 +73,16 @@
   text-decoration: none;
   font-weight: 400;
   font-family: "Manrope", sans-serif;
-  font-size: 20px;
+  font-size: 70%;
   color: #ffffff;
+}
+
+
+
+@media screen and (min-width:800px){
+  .navbar-link{
+    font-size: 120%;
+  }
 }
 
 .navLink-highlight{
@@ -96,6 +110,7 @@
   background-color: #1a1a1a;
   padding-top: 120px;
   overflow-x: hidden;
+  
 }
 
 .hero-doremipa {
@@ -109,10 +124,10 @@
   justify-content: center;
   /* margin-top: -10px; */
 }
+
 .subcategorycard {
   position: relative;
-  height: 621px;
-  width: 463px;
+  width: 30vw;
   padding: 0px;
   border-radius: 20px;
   margin: 40px;
@@ -121,6 +136,28 @@
   overflow: hidden;
   opacity: 1;
   transition: opacity 0.5s ease;
+}
+
+@media screen and (max-width: 640px) {
+  .subcategorycard {
+    margin: 20px;
+  }
+}
+
+.subCat{
+  color: white;
+  text-align : center;
+  margin-bottom: 100px;
+  font-family: "Manrope";
+  font-size: 64px;
+  font-weight: 600;
+}
+
+@media screen and (max-width:520px){
+.subCat{
+  font-size: 240%;
+  text-align: center;
+}
 }
 
 .subcategorycard .hovered {
@@ -138,9 +175,6 @@
 }
 
 .subcategory img {
-  position: relative;
-  width: 100%;
-  display: inline-block;
   border-radius: 20px;
 }
 
@@ -189,6 +223,7 @@
   padding: 10px 50px;
 }
 
+
 .frame .div {
   align-items: center;
   display: flex;
@@ -198,7 +233,7 @@
 
 .frame .div-2 {
   align-items: center;
-  display: inline-flex;
+  display: flex;
   flex: 0 0 auto;
   flex-direction: column;
   gap: 8px;
@@ -234,11 +269,12 @@
   font-family: "Manrope-SemiBold", Helvetica;
   font-size: 32px;
   font-weight: 600;
-  left: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
-  top: 27px;
 }
 
 .frame .text-wrapper-3 {
@@ -272,6 +308,34 @@
   flex-direction: column;
   gap: 8px;
   position: relative;
+}
+
+@media screen and (max-width:800px) {
+  .frame {
+    width: 95vw;
+    height: fit-content;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .frame .div-wrapper {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .frame .text-wrapper-2 {
+    font-size: 18px;
+  }
+
+  .frame .div-2 {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
 }
 
 /* about doremipa card */
@@ -486,10 +550,12 @@
   align-items: center;
   height: 35vh;
   overflow: hidden;
+  padding: 100px 40px; 
 }
 
+
 .madLogo-footer {
-  object-fit: contain;
+  /* object-fit: contain;
   height: 100px;
   position: relative;
   left: 125px;
@@ -498,12 +564,43 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+   */
 }
+
+@media screen and (max-width:1100px) {
+  .madLogo-footer{
+    width: 30%;
+  }
+  .footer-sec1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70%;
+  }
+}
+
+
+@media screen and (min-width:1100px) and (max-width:1600px) {
+  .madLogo-footer{
+    width: 25%;
+  }
+  .footer-sec1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+  }
+
+}
+
 
 .footer-sec1 div {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .email-footer {
@@ -582,6 +679,23 @@
 .icon-footer {
   object-fit: contain;
   width: 15%;
+}
+
+@media screen and (max-width: 900px) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .footer-sec2 {
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .footer-sec3 {
+    align-items: center;
+    width: 80%;
+    margin-top: 10px
+  }
 }
 
 /* FOOTER END */

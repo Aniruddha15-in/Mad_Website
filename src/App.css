@@ -264,6 +264,9 @@
   overflow: hidden;
   position: relative;
   width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .frame .text-wrapper-2 {
@@ -952,7 +955,7 @@
 
 .accolades{
   background: #1E1E1E;
-  /* overflow: hidden; */
+  overflow-x: hidden;
   padding-top: 200px;
   display: flex;
   justify-content: center;
@@ -969,7 +972,7 @@
   font-weight: 600;
   line-height: normal;
   margin: 0px;
-  margin-top: 84px;
+  margin-top: 20px;
 }
 
 .heading-cardsec{
@@ -985,7 +988,7 @@
 
 .card-section{
   height: auto;
-  margin: 100px;
+  margin: 50px;
   display: flex;
   flex-direction: column;
   gap: 0px;

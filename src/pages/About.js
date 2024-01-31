@@ -1,9 +1,75 @@
 import React from 'react'
+import Carousel from '../components/Carousel'
+import AboutUsCard from '../components/AboutUsCard'
+import CouncilCard from '../components/CouncilCard'
+
+import duality from '../assets/acts/duality.jpg'
+
+import anubhav from '../assets/council/AnubhavF-100.jpg'
+import sabya from '../assets/council/SabyaF-100 1.jpg'
+import daksh from '../assets/council/DakshF-100.jpg'
+import akk from '../assets/council/AkkshittaF-100.jpg'
+import ansh from '../assets/council/JindalF-100.png'
+import rajat from '../assets/council/RajatF-100.jpg'
 
 const About = () => {
+  const images = [
+    duality
+  ];
   return (
-    <div>
-      ABOUT
+    <div className='about'>
+      
+      <div style={{ paddingTop: '170px' }}>
+        <Carousel images = {images} acts={2}/>
+      </div>
+
+      <div className="aboutCard">
+        <AboutUsCard/>
+      </div>
+
+      <div>
+        <div className='council-text'>COUNCIL</div>
+        <div className='year-wrapper'>
+          <div className='year'>
+            2023-24
+          </div>
+        </div>
+
+
+        <div className="council-pos">PRESIDENT</div>
+        <div className='card-wrapper'>
+          <CouncilCard img={anubhav} name = "Anubhav" alt="Anubhav" />
+        </div>
+
+        <div className="council-column">
+          <div>
+            <CouncilCard img={sabya} name = "Sabya" alt="Sabya" />
+          </div>
+          <div className='council-pos' style={{width:"450px"}}>VICE-PRESIDENTS</div>
+          <div>
+            <CouncilCard img={daksh} name = "Daksh" alt="Daksh" />
+          </div>
+        </div>
+        <div>
+          
+        </div>
+        <div className="council-column">
+          <div>
+            <CouncilCard img={akk} name = "Akkshita" alt="Akkshita" />
+          </div>
+          <div className='council-pos' style={{width:"450px"}}>GENERAL SECRETARIES</div>
+          <div>
+            <CouncilCard img={ansh} name = "Ansh" alt="Ansh" />
+          </div>
+        </div>
+
+
+        <div className="council-pos">TREASURER</div>
+        <div className='card-wrapper'>
+          <CouncilCard img={rajat} name = "Rajat" alt="Rajat" />
+        </div>
+
+      </div>
     </div>
   )
 }

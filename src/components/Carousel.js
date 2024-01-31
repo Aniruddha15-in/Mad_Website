@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const Carousel = ({ images }) => {
+const Carousel = ({ images, acts }) => {
   const [activeIndex, setActiveIndex] = useState(0);
   const nextSlide = () => {
     setActiveIndex((prevIndex) =>
@@ -14,6 +14,7 @@ const Carousel = ({ images }) => {
   };
   return (
     <div className="carousel">
+      <div className="our-acts" style={{zIndex : `${acts}`}}>OUR ACTS</div>
       <button onClick={prevSlide} className="carousel__btn carousel__btn--prev">
         &lt;
       </button>

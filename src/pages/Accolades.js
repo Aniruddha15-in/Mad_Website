@@ -6,34 +6,33 @@ const Accolades = () => {
   return (
     <div className='accolades'>
       
-      <div className='western-solos'>
-        {westernSolos.map((person) => (
-          <AccoladesCard image={person.image} name={person.name} tag={person.tag}/>
-        ))}
+      <p className='acc-heading'>ACCOLADES</p>
+
+      <div className='card-section'>
+        <p className='heading-cardsec'>WESTERN SOLOS 2022-23</p>
+        <div className='cards-container'>
+          {westernSolos.map((person) => (
+            <AccoladesCard image={person.image} name={person.name} tag={person.tag}/>
+          ))}
+        </div>
       </div>
 
-      <div className='indian-solos'>
-        {indianSolos.map((person) => (
-          <AccoladesCard image={person.image} name={person.name} tag={person.tag}/>
-        ))}
+      <div className='card-section'>
+        <p className='heading-cardsec'>INDIAN SOLOS 2022-23</p>
+        <div className='cards-container'>
+          {indianSolos.map((person) => (
+            <AccoladesCard image={person.image} name={person.name} tag={person.tag}/>
+          ))}
+        </div>
       </div>
 
-      <div className='instrumental-solos'>
-        {instrumental.map((person) => (
-          <AccoladesCard image={person.image} name={person.name} tag={person.tag}/>
-        ))}
-      </div>
-
-      <div className='band-wins'>
-        {band.map((person) => (
-          <AccoladesCard image={person.image} name={person.name} tag={person.tag}/>
-        ))}
-      </div>
-
-      <div className='acapella-wins'>
-        {acapella.map((person) => (
-          <AccoladesCard image={person.image} name={person.name} tag={person.tag}/>
-        ))}
+      <div className='card-section'>
+        <p className='heading-cardsec'>INSTRUMENTAL SOLOS 2022-23</p>
+        <div className='cards-container'>
+          {instrumental.map((person) => (
+            <AccoladesCard image={person.image} name={person.name} tag={person.tag}/>
+          ))}
+        </div>
       </div>
     </div>
   )

@@ -5,6 +5,7 @@
   width: 100vw;
   position: fixed;
   /* display: none; */
+  overflow: hidden;
 }
 
 .nav-dontdisplay {
@@ -484,6 +485,7 @@
   justify-content: space-evenly;
   align-items: center;
   height: 35vh;
+  overflow: hidden;
 }
 
 .madLogo-footer {
@@ -834,13 +836,60 @@
 
 .accolades{
   background: #1E1E1E;
+  /* overflow: hidden; */
+  padding-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.acc-heading{
+  color: #ECECEC;
+  font-family: Manrope;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0px;
+  margin-top: 84px;
+}
+
+.heading-cardsec{
+  color: #FFF;
+  font-family: Manrope;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0px;
+  margin-bottom: 40px;
+}
+
+.card-section{
+  height: auto;
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.cards-container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1550px;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 56px 129px;
+  flex-shrink: 0;
 }
 
 .accoladesCard{
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0px;
+  justify-content: flex-start;
 }
 
 .accoladesCard img{

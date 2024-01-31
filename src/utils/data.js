@@ -42,9 +42,44 @@ export const westernSolos = [
     name: 'Apoorv',
     tag: 'BTech (Chemical Engg.)',
   },
+  {
+    image: sabya,
+    name: 'Apoorv',
+    tag: 'BTech (Chemical Engg.)',
+  },
+  {
+    image: sabya,
+    name: 'Apoorv',
+    tag: 'BTech (Chemical Engg.)',
+  },
+  {
+    image: sabya,
+    name: 'Apoorv',
+    tag: 'BTech (Chemical Engg.)',
+  },
+  {
+    image: sabya,
+    name: 'Apoorv',
+    tag: 'BTech (Chemical Engg.)',
+  },
+  {
+    image: sabya,
+    name: 'Apoorv',
+    tag: 'BTech (Chemical Engg.)',
+  },
 ]
 
 export const indianSolos = [
+  {
+    image: sabya,
+    name: 'Apoorv',
+    tag: 'BTech (Chemical Engg.)',
+  },
+  {
+    image: sabya,
+    name: 'Apoorv',
+    tag: 'BTech (Chemical Engg.)',
+  },
   {
     image: sabya,
     name: 'Apoorv',

@@ -4,8 +4,10 @@ const AccoladesCard = ({ image, name, tag }) => {
   return (
     <div className='accoladesCard'>
       <img src={image} />
-      <p className='acc-name'>{name}</p>
-      <p className='acc-tag'>{tag}</p>
+      <div>
+        <p className='acc-name'>{name}</p>
+        <p className='acc-tag'>{tag}</p>
+      </div>
     </div>
   )
 }

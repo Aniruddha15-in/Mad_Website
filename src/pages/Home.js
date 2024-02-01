@@ -6,8 +6,8 @@ import sponsor3 from "../assets/sponsor-logo3.png";
 import sponsor4 from "../assets/sponsor-logo4.png";
 import sponsor5 from "../assets/sponsor-logo5.png";
 import IGcomponent from "../components/IGcomponent";
-import AboutDoremipaCard from "../components/AboutDoremipaCard";
-
+import AboutUsCard from "../components/AboutUsCard";
+import saksham from "../assets/home-about.jpg";
 import { Helmet } from "react-helmet";
 
 const Home = () => {
@@ -16,7 +16,15 @@ const Home = () => {
       <div className="hero-home">
         <img src={hero} />
       </div>
-      <AboutDoremipaCard />
+      <AboutUsCard image={saksham} desc="DoReMiPa is the official annual inter-college music competition of
+            Delhi Technological University(DTU) organized by Madhurima - the
+            music society of DTU, which is held under ENGIFEST- the largest
+            cultural fest of north India. DoReMiPa includes six musical
+            competitions that showcase a diverse array of musical styles,
+            encompassing Indian, Western, and Instrumental genres and draws
+            participation from all major colleges in the Delhi NCR as well as
+            other parts of India. The competition is judged by professional
+            musicians who are well established within their respective domains." check={true}/>
       <div className="sponsors">
         <p className="content-sponsors">Sponsors</p>
         <div className="current-sponsors">
@@ -37,7 +45,7 @@ const Home = () => {
           <img src={sponsor5} className="current-sponsor" />
         </div>
       </div>
-      <div className="ig-embed">
+      {/* <div className="ig-embed">
         <div className="ig-small">
           <IGcomponent/>
         </div>
@@ -53,7 +61,7 @@ const Home = () => {
               ></script>
           </Helmet>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

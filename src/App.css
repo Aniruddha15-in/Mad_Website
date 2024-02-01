@@ -338,51 +338,6 @@
 
 }
 
-/* about doremipa card */
-/* .frame-2 {
-  background-color: #e8e8e8;
-  border-radius: 30px;
-  height: 569px;
-  overflow: hidden;
-  width: 1348px;
-}
-
-.frame-2 .div {
-  align-items: flex-start;
-  display: inline-flex;
-  flex-direction: column;
-  gap: 4px;
-  left: 701px;
-  position: relative;
-  top: 118px;
-}
-
-.frame-2 .about-doremipa {
-  color: #000;
-  font-family: "Manrope-Light", Helvetica;
-  font-size: 64px;
-  font-weight: 400;
-  height: 153px;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-top: -1px;
-  position: relative;
-  width: 387px;
-}
-
-.frame-2 .text-wrapper {
-  font-weight: 300;
-}
-
-.frame-2 .span {
-  font-family: "Manrope-Regular", Helvetica;
-}
-
-.frame-2 .text-wrapper-2 {
-  font-family: "Manrope-Bold", Helvetica;
-  font-weight: 700;
-} */
-
 /* DOREMIPA_END */
 
 /* HOMEPAGE_START */
@@ -409,87 +364,39 @@
 }
 
 .about-home {
-  display: inline-flex;
-  height: 571.396px;
-  padding: 46.455px 174.206px 46.455px 0px;
-  justify-content: center;
-  align-items: center;
-  gap: 106.137px;
-  flex-shrink: 0;
-  width: 90%;
-  border-radius: 34.841px;
-  background: #D9D9D9;
-  margin: 81px;
+  
 }
 
 .about-home img {
-  object-fit: cover;
-  margin-top: 3px;
-  height: 571.396px;
-  flex-shrink: 0;
-  border-radius: 34.84px 0px 0px 34.84px;
-  box-shadow: 2.686px 5.373px 5.373px 0px rgba(0, 0, 0, 0.37);
+  
 }
 
 .content-home {
-  display: flex;
-  width: 666.629px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 15.582px;
+  
 }
 
 .p1content-home {
-  color: #000;
-  font-family: Manrope;
-  font-size: 74.328px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 100%; /* 74.328px */
+  
 }
 
 .p2content-home {
-  color: #000;
-  font-family: Manrope;
-  font-size: 74.328px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 100%;
+  
 }
 
 .p3content-home {
-  /* width: 666.629px; */
-  /* height: 197.434px; */
-  color: #000;
-  font-family: Manrope;
-  font-size: 17.421px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  
 }
 
 .but-home {
-  width: 187px;
-  height: 57px;
-  border-radius: 8px;
-  background-color: #000;
-  color: #fff;
-  font-family: "Manrope", sans-serif;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  margin-top: 40px;
+  
 }
 
 .but-home a:link{
-  color: #fff;
-  text-decoration: none;
+
 }
 
 .but-home a:visited{
-  color: #fff;
-  text-decoration: none;
+  
 }
 
 .sponsors {

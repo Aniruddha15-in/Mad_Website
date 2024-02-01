@@ -6,7 +6,6 @@ import tim from "../assets/subcategory/Prelude-100.jpg"
 import vrind from "../assets/subcategory/Vrind-100.jpg"
 import rahman from "../assets/subcategory/Engi Idol-100.jpg"
 import SubCategoryCard from '../components/SubCategoryCard'
-import AboutDoremipaCard from '../components/AboutDoremipaCard'
 import hero from "../assets/Doremipa-hero.jpg"
 
 const Doremipa = () => {

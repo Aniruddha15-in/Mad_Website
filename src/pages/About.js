@@ -3,6 +3,8 @@ import Carousel from '../components/Carousel'
 import AboutUsCard from '../components/AboutUsCard'
 import CouncilCard from '../components/CouncilCard'
 
+import noel from "../assets/noel-about.png";
+
 import duality from '../assets/acts/duality.jpg'
 
 import anubhav from '../assets/council/AnubhavF-100.jpg'
@@ -24,7 +26,15 @@ const About = () => {
       </div>
 
       <div className="aboutCard">
-        <AboutUsCard/>
+        <AboutUsCard image={noel} desc="DoReMiPa is the official annual inter-college music competition of
+            Delhi Technological University(DTU) organized by Madhurima - the
+            music society of DTU, which is held under ENGIFEST- the largest
+            cultural fest of north India. DoReMiPa includes six musical
+            competitions that showcase a diverse array of musical styles,
+            encompassing Indian, Western, and Instrumental genres and draws
+            participation from all major colleges in the Delhi NCR as well as
+            other parts of India. The competition is judged by professional
+            musicians who are well established within their respective domains."/>
       </div>
 
       <div>

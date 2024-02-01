@@ -116,7 +116,10 @@
 }
 
 .hero-doremipa {
-  padding-top: 50px;
+  margin-top: -100px;
+  margin-bottom: -100px;
+  object-fit: cover;
+  width: 100%;
 }
 
 .subcategory {
@@ -129,7 +132,7 @@
 
 .subcategorycard {
   position: relative;
-  width: 30vw;
+  width: 25vw;
   padding: 0px;
   border-radius: 20px;
   margin: 40px;
@@ -164,8 +167,7 @@
 
 .subcategorycard .hovered {
   position: relative;
-  height: 621px;
-  width: 463px;
+  width: 25vw;
   padding: 0px;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -208,6 +210,58 @@
 .info a:visited {
   color: #fff;
 }
+
+.about-doremipa-sec{
+  height: 221px;
+  width: 100%;
+  position: relative;
+  bottom: 200px;
+  border-radius: 20px 20px 0px 0px;
+  overflow: hidden;
+}
+
+.about-doremipa-sec .group {
+  background-color: #fff;
+  height: 221px;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
+.about-doremipa-sec .div{
+  height: 60px;
+  left: 164px;
+  position: relative;
+  top: 80px;
+  width: 66%;
+}
+
+.about-doremipa-sec .text-1{
+  color: #000;
+  font-family: "Manrope-SemiBold", Helvetica;
+  font-size: 64px;
+  font-weight: 600;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 60px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.about-doremipa-sec .p{
+  color: #000;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 15px;
+  font-weight: 200;
+  left: 500px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 773px;
+}
+
 
 .frame {
   background-color: #ffffff;
@@ -364,31 +418,75 @@
 }
 
 .about-home {
-  
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: inline-flex;
+  height: 479.396px;
+  padding: 46.455px 174.206px 46.455px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 116.137px;
+  flex-shrink: 0;
+  border-radius: 34.841px;
+  background: #ECECEC;
+  width: 82.5%;
+  overflow: hidden;
 }
 
 .about-home img {
-  
+  width: 627.081px;
+  height: 572.891px;
+  flex-shrink: 0;
+  margin-top: 3.5px;
+  border-radius: 23.227px 0px 0px 23.227px;
+  box-shadow: 2.686px 5.373px 5.373px 0px rgba(0, 0, 0, 0.37);
 }
 
 .content-home {
-  
+  display: flex;
+  width: 666.629px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18.582px;
 }
 
 .p1content-home {
-  
+  color: #000;
+  margin: 0px;
+  font-family: Manrope;
+  font-size: 74.328px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%; /* 74.328px */
 }
 
 .p2content-home {
-  
+  color: #000;
+  margin: 0px;
+  font-family: Manrope;
+  font-size: 74.328px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
 }
 
 .p3content-home {
-  
+  width: 666.629px;
+  height: 197.434px;
+  color: #000;
+  font-family: Manrope;
+  font-size: 17.421px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .but-home {
-  
+  display: flex;
+  padding: 9.291px 18.582px;
+  justify-content: center;
+  align-items: center;
+  gap: 18.582px;
 }
 
 .but-home a:link{
@@ -949,6 +1047,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin: 0;
 }
 
@@ -1088,1078 +1187,5 @@
   height: 411px;
   border-radius: 28px 28px 0px 0px;
 }
-
-/* COUNCIL CARD END */
-
-/* NAVBAR_START */
-
-.navbar {
-  z-index: 99;
-  width: 100vw;
-  position: fixed;
-  /* display: none; */
-}
-
-.nav-dontdisplay {
-  display: none;
-}
-
-.navbar-sec1 {
-  border-bottom: 1px solid black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-  background-color: #1a1a1a;
-}
-
-.navbar-sec1 img {
-  object-fit: cover;
-  margin-right: 5px;
-  margin-top: 3px;
-  width: 91px;
-  height: 91px;
-}
-
-.navbar-sec1-link {
-  color: #ececec;
-  font-size: 103px;
-  font-family: "Satoshi-Bold", Helvetica;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  text-decoration: none;
-}
-
-.navbar-secmid {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #ececec;
-  height: 24px;
-}
-
-.navbar-secmid {
-  color: #1a1a1a;
-  font-size: 16px;
-  font-family: "Manrope", sans-serif;
-}
-
-.navbar-sec2 {
-  display: flex;
-  justify-content: space-evenly;
-  border-bottom: 1px solid black;
-  height: 53px;
-  align-items: center;
-  background-color: #1a1a1a;
-}
-
-.navbar-link {
-  color: black;
-  text-decoration: none;
-  font-weight: 400;
-  font-family: "Manrope", sans-serif;
-  font-size: 20px;
-  color: #ffffff;
-}
-
-.navLink-highlight{
-  display: flex;
-  padding: 10px 20px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  border-radius: 0px 0px 8px 8px;
-  border-top: 1px solid #000;
-  background: #FFF;
-  text-decoration: none;
-  font-weight: 400;
-  font-family: "Manrope", sans-serif;
-  font-size: 20px;
-  color: #000000;
-  height: 33px;
-}
-
-/* NAVBAR_END */
-
-/* DOREMIPA */
-
-.Doremipa {
-  background-color: #1a1a1a;
-  padding-top: 120px;
-  overflow-x: hidden;
-}
-
-.hero-doremipa {
-  margin-top: -100px;
-  margin-bottom: -100px;
-}
-
-.hero-doremipa .about-doremipa-sec{
-  position: relative;
-  z-index: 2;
-  display: flex;
-  flex-direction: column;
-  bottom: 220px;
-  height: 221px;
-  width: 1800px;
-  overflow: hidden;
-
-  
-}
-
-.about-doremipa-sec .group{
-  position:absolute;
-  bottom: 0px;
-  background-color: #fff;
-  height: 221px;
-  width:1696px;
-  justify-content: center;
-  align-items: center;
-  border-radius: 30px 30px 0px 0px;
-}
-
-.about-doremipa-sec .div{
-  display: flex;
-  flex-direction: row;
-  height: 60px;
-  width: 1277px;
-  gap: 240px;
-  align-content: center;
-
-}
-
-.about-doremipa-sec .text-1{
-  color: #000;
-  font-family: "Manrope-SemiBold", Helvetica;
-  font-size: 64px;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: 60px;
-  white-space: nowrap;
-  justify-content: center;
-  text-align: center;
-  padding: 80px 0px 0px 164px;
-}
-
-.about-doremipa-sec .p{
-  color: #000;
-  font-family: "Manrope-Regular", Helvetica;
-  font-size: 18px;
-  font-weight: 100;
-  letter-spacing: 0;
-  line-height: normal;
-  width: 773px;
-  padding-top: 60px;
-}
-
-.subcategory {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  /* margin-top: -10px; */
-}
-.subcategorycard {
-  position: relative;
-  height: 621px;
-  width: 463px;
-  padding: 0px;
-  border-radius: 20px;
-  margin: 40px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  flex-shrink: 1;
-  overflow: hidden;
-  opacity: 1;
-  transition: opacity 0.5s ease;
-}
-
-@media (max-width: 1100px){
-  .subcategory{
-    flex-wrap: wrap;
-    /* width: 1100px; */
-  }
-
-  .subcategorycard{
-    flex-basis: auto;
-    flex-shrink: 1;
-    
-  }
-}
-
-.subcategorycard .hovered {
-  position: relative;
-  height: 621px;
-  width: 463px;
-  padding: 0px;
-  border-radius: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  flex-shrink: 1;
-  overflow: hidden;
-  opacity: 0.7;
-  scale: 1.027;
-  transition: all 0.5s ease;
-}
-
-
-.subcategory img {
-  position: relative;
-  width: 100%;
-  display: inline-block;
-  border-radius: 20px;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /* background-color: rgba(255, 255, 255, 0.8); Adjust the overlay color and opacity */
-  /* z-index: 1; */
-}
-
-.overlay .info {
-  color: #fff;
-  font-family: "Manrope-SemiBold", Helvetica;
-  font-size: 24px;
-  font-weight: 600;
-}
-
-.info a:link {
-  color: #fff;
-}
-
-.info a:visited {
-  color: #fff;
-}
-
-.frame {
-  background-color: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  border-radius: 30px;
-  height: 197px;
-  overflow: hidden;
-  width: 1348px;
-  margin-top: -30px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 120px;
-  padding: 10px 50px;
-}
-
-.frame .div {
-  align-items: center;
-  display: flex;
-  gap: 160px;
-  position: relative;
-}
-
-.frame .div-2 {
-  align-items: center;
-  display: inline-flex;
-  flex: 0 0 auto;
-  flex-direction: column;
-  gap: 8px;
-  position: relative;
-}
-
-.frame .text-wrapper {
-  color: #000;
-  font-family: "Manrope-Regular", Helvetica;
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-top: -1px;
-  position: relative;
-  white-space: nowrap;
-  width: fit-content;
-}
-
-.frame .div-wrapper {
-  background-color: #1a1a1a;
-  justify-content: flex-end;
-  border-radius: 15px;
-  height: 100px;
-  opacity: 0.92;
-  overflow: hidden;
-  position: relative;
-  width: 200px;
-}
-
-.frame .text-wrapper-2 {
-  color: #fff;
-  font-family: "Manrope-SemiBold", Helvetica;
-  font-size: 32px;
-  font-weight: 600;
-  left: 64px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 27px;
-}
-
-.frame .text-wrapper-3 {
-  color: #000;
-  font-family: "Manrope-Regular", Helvetica;
-  font-size: 20px;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-top: -1px;
-  position: relative;
-  width: fit-content;
-}
-
-.frame .text-wrapper-4 {
-  color: #fff;
-  font-family: "Manrope-SemiBold", Helvetica;
-  font-size: 32px;
-  font-weight: 600;
-  left: 56px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 27px;
-}
-
-.frame .div-3 {
-  align-items: flex-end;
-  display: inline-flex;
-  flex: 0 0 auto;
-  flex-direction: column;
-  gap: 8px;
-  position: relative;
-}
-
-@media (max-width: 800px){
-  .frame{
-    display: flex;
-    width: 600px;
-    padding: 10px 20px;
-    height: 500px;
-    flex-basis: content;
-
-    margin: 50px;
-  }
-
-  .frame .div{
-    flex-wrap: wrap;
-    
-  }
-}
-
-
-/* about doremipa card */
-/* .frame-2 {
-  background-color: #e8e8e8;
-  border-radius: 30px;
-  height: 569px;
-  overflow: hidden;
-  width: 1348px;
-}
-
-.frame-2 .div {
-  align-items: flex-start;
-  display: inline-flex;
-  flex-direction: column;
-  gap: 4px;
-  left: 701px;
-  position: relative;
-  top: 118px;
-}
-
-.frame-2 .about-doremipa {
-  color: #000;
-  font-family: "Manrope-Light", Helvetica;
-  font-size: 64px;
-  font-weight: 400;
-  height: 153px;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-top: -1px;
-  position: relative;
-  width: 387px;
-}
-
-.frame-2 .text-wrapper {
-  font-weight: 300;
-}
-
-.frame-2 .span {
-  font-family: "Manrope-Regular", Helvetica;
-}
-
-.frame-2 .text-wrapper-2 {
-  font-family: "Manrope-Bold", Helvetica;
-  font-weight: 700;
-} */
-
-/* DOREMIPA_END */
-
-/* HOMEPAGE_START */
-
-.homePage {
-  background-color: #1a1a1a;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0;
-  overflow-x: hidden;
-}
-
-.hero-home {
-  padding-top: 80px;
-}
-
-.hero-home img {
-  object-fit: cover;
-  display: flex;
-  /* width: 100vh; */
-  /* height:1080px; */
-  width: 1920px;
-}
-
-.about-home {
-  display: inline-flex;
-  height: 571.396px;
-  padding: 46.455px 174.206px 46.455px 0px;
-  justify-content: center;
-  align-items: center;
-  gap: 106.137px;
-  flex-shrink: 0;
-  width: 90%;
-  border-radius: 34.841px;
-  background: #D9D9D9;
-  margin: 81px;
-}
-
-.about-home img {
-  object-fit: cover;
-  margin-top: 3px;
-  height: 571.396px;
-  flex-shrink: 0;
-  border-radius: 34.84px 0px 0px 34.84px;
-  box-shadow: 2.686px 5.373px 5.373px 0px rgba(0, 0, 0, 0.37);
-}
-
-.content-home {
-  display: flex;
-  width: 666.629px;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 15.582px;
-}
-
-.p1content-home {
-  color: #000;
-  font-family: Manrope;
-  font-size: 74.328px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 100%; /* 74.328px */
-}
-
-.p2content-home {
-  color: #000;
-  font-family: Manrope;
-  font-size: 74.328px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 100%;
-}
-
-.p3content-home {
-  /* width: 666.629px; */
-  /* height: 197.434px; */
-  color: #000;
-  font-family: Manrope;
-  font-size: 17.421px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.but-home {
-  width: 187px;
-  height: 57px;
-  border-radius: 8px;
-  background-color: #000;
-  color: #fff;
-  font-family: "Manrope", sans-serif;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  margin-top: 40px;
-}
-
-.but-home a:link{
-  color: #fff;
-  text-decoration: none;
-}
-
-.but-home a:visited{
-  color: #fff;
-  text-decoration: none;
-}
-
-.sponsors {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  margin-bottom: 80px;
-}
-
-.content-sponsors {
-  color: #fff;
-  font-family: "Manrope", sans-serif;
-  font-size: 28px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  margin-bottom: 40px;
-}
-
-.current-sponsors {
-  width: 98vw;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.current-sponsor {
-  object-fit: contain;
-  width: 11vw;
-}
-
-.ig-embed {
-  background-color: #1a1a1a;
-  margin-bottom: 50px;
-}
-
-@media (max-width: 800px) {
-  .ig-big {
-    display: none;
-  }
-}
-
-@media (min-width: 801px) {
-  .ig-small {
-    display: none;
-  }
-}
-
-/* HOMEPAGE_END */
-
-/* FOOTER START */
-
-.footer {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  height: 35vh;
-}
-
-.madLogo-footer {
-  object-fit: contain;
-  height: 100px;
-  position: relative;
-  left: 125px;
-  bottom: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.footer-sec1 div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.email-footer {
-  object-fit: contain;
-  width: 6%;
-}
-
-.footer-sec2 {
-  display: flex;
-  text-decoration: none;
-  flex-direction: column;
-  justify-content: space-evenly;
-  height: 93%;
-}
-
-.linki {
-  text-decoration: none;
-  color: black;
-  color: #1a1a1a;
-  font-family: Manrope;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.link1 {
-  font-weight: 700;
-}
-
-.footer-sec3 {
-  width: 25%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  height: 80%;
-}
-
-.footer-sec3 p {
-  color: #1a1a1a;
-  font-family: Manrope;
-  font-size: 14px;
-  font-style: normal;
-  line-height: normal;
-}
-
-.footer-p1 {
-  font-weight: 700;
-}
-
-.span1-footer {
-  color: #1a1a1a;
-  font-family: Manrope;
-  font-size: 14px;
-  font-style: normal;
-  line-height: normal;
-  font-weight: 700;
-}
-
-.span2-footer {
-  color: #1a1a1a;
-  font-family: Manrope;
-  font-size: 14px;
-  font-style: normal;
-  line-height: normal;
-  font-weight: 400;
-}
-
-.icons-footer {
-  display: flex;
-  justify-content: space-between;
-  width: 70%;
-  margin-top: 20px;
-}
-
-.icon-footer {
-  object-fit: contain;
-  width: 15%;
-}
-
-/* FOOTER END */
-
-/* ARTIST-PAGE START */
-.artistPage {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #1a1a1a;
-  height: auto;
-  /* margin-top:  */
-}
-
-.heading-artistPage {
-  color: #fff;
-  font-family: Manrope;
-  font-size: 48px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-}
-
-.artist-card {
-  width: 80%;
-  display: flex;
-  background-color: #d9d9d9;
-  justify-content: space-evenly;
-  align-items: center;
-  height: auto;
-  border-radius: 30px;
-  padding: 20px;
-  margin-bottom: 80px;
-}
-
-.artist-sec1 {
-  width: 35%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.artist-sec1 img {
-  object-fit: contain;
-  height: 400px;
-}
-
-.artist-sec2 {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-bottom: 40px;
-}
-
-.heading-artist {
-  display: flex;
-}
-
-.artist-name {
-  color: #000;
-  font-family: Manrope;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-}
-
-.artist-tag {
-  color: #aeaeae;
-  font-family: Manrope;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-  padding-left: 10px;
-}
-
-.artist-desc {
-  margin: 0px 0px 20px 0px;
-  color: #000;
-  font-family: Inter;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.artist-spotify {
-  margin: 0px;
-  padding: 0px;
-  height: 150px;
-  margin-bottom: -35px;
-}
-
-.artist-links {
-  display: flex;
-  justify-content: space-between;
-  width: 40%;
-}
-
-.artist-link {
-  object-fit: contain;
-  width: 50px;
-  height: 50px;
-}
-
-/* ARTIST-PAGE END */
-
-/* EVENTS PAGE */
-.events {
-  background-color: #1a1a1a;
-  overflow-x: hidden;
-}
-
-.events-header {
-  text-align: center;
-  padding-top: 50px;
-  color: #fff;
-  font-family: "Manrope-Regular", Helvetica;
-  font-size: 64px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-}
-
-.event-card{
-  margin: 50px auto;
-  position: relative;
-  width: 1241px;
-  height: 492px;
-  background-color: #ececec;
-  border-radius: 30px;
-  overflow: hidden;
-}
-
-.event-card .div{
-  position: relative;
-  width: 1050px;
-  height: 413px;
-  top: 39px;
-  left: 34px;
-}
-
-.event-card .IMG{
-  position:absolute;
-  border-radius: 20px;
-  width: 405px;
-  height: 420px;
-  top: -4px;
-  left: 1px;
-}
-
-.event-card .div-2{
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 16px;
-  position: absolute;
-  top: 0;
-  left: 456px;
-}
-
-.event-card .group{
-  position: relative;
-  width: 274px;
-  height: 87px;
-}
-
-.event-card .text-wrapper{
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-family: "Manrope-SemiBold", Helvetica;
-  font-weight: 600;
-  color: #000;
-  font-size: 64px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.event-card .text-wrapper-2{
-  position: relative;
-  width: 573px;
-  height: 165px;
-  font-family: "Manrope-Regular", Helvetica;
-  font-weight: 400;
-  color: #000;
-  font-size: 15px;
-  letter-spacing: normal;
-  line-height: normal;
-}
-/* EVENTS PAGE END */
-
-/* CAROUSEL */
-.carousel {
-  background-color: #1a1a1a;
-  position: relative;
-  max-width: 100%;
-  overflow: hidden;
-}
-.carousel__btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
-  font-size: 1.5rem;
-  border: none;
-  padding: 1rem;
-  cursor: pointer;
-  z-index: 1;
-  transition: background-color 0.3s;
-}
-.carousel__btn:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-.carousel__btn--prev {
-  left: 0;
-}
-.carousel__btn--next {
-  right: 0;
-}
-.carousel__img {
-  width: 100%;
-  height: auto;
-  display: block;
-  transition: transform 0.3s ease-in-out;
-}
-.carousel__img:hover {
-  transform: scale(1.015);
-}
-
-.carousel .our-acts{
-  position: absolute;
-  top: 45px;
-  left: 105px;
-  font-family: "Manrope-Regular", Helvetica;
-  font-size: 20px;
-  line-height: normal;
-  z-index: -1;
-  font-weight: 100;
-  color: #FFF;
-  text-shadow: 4px 2px 2px #000000bf;
-}
-
-/* CAROUSEL END */
-
-/* ABOUT US */
-.about{
-  background-color: #1a1a1a;
-  overflow-x: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0;
-}
-
-.about .council-text{
-  color: #FFF;
-  font-family: "Manrope-SemiBold", Helvetica;
-  text-align: center;
-  font-size: 64px;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: normal;
-  position: relative;
-}
-
-.about .year-wrapper{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 133px;
-  gap: 12.25px;
-  padding: 10px 20px;
-  position: relative;
-  background-color: #fff;
-  border-radius: 4px;
-  margin: auto;
-  margin-bottom: 80px;
-}
-
-.year-wrapper .year{
-  position: relative;
-  width: fit-content;
-  color: #000;
-  font-family: "Manrope-Regular", Helvetica;
-  font-size: 24px;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: normal;
-  margin-top: -1.22px;
-}
-
-.about .council-pos{
-  color: #FFF;
-  font-family: "Manrope-Regular", Helvetica;
-  font-size: 40px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  text-align: center;
-  margin: 45px;
-}
-
-.about .card-wrapper{
-  align-items: center;
-  display: flex;
-  flex: 0 0 auto;
-  gap: 45px;
-  justify-content: center;
-  position: relative;
-}
-
-.about .council-column{
-  align-items: center;
-  display: inline-flex;
-  flex: 0 0 auto;
-  gap: 50px;
-  justify-content: center;
-  position: relative;
-}
-/* ABOUT US END */
-
-
-/* COUNCIL CARD */
-.council-card{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  position: relative;
-  width: 350px;
-  height: 479px;
-  margin-bottom: 100px;
-}
-
-.council-card .group{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 350px;
-  height: 479px;
-  
-}
-
-.council-card .overlap-group-wrapper{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  position: absolute;
-  top: 411px;
-  left: 0px;
-  width: 352px;
-  height: 68px;
-}
-
-.council-card .overlap-group{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  position: relative;
-  width: 350px;
-  height: 68px;
-  background-color: #fff;
-  border-radius: 0px 0px 28px 28px;
-}
-
-.council-card .council-name{
-  position: absolute;
-  top: 16px;
-  left: 124px;
-  width: 102px;
-  height: auto;
-  color: #272727;
-  font-family: "Manrope-Medium", Helvetica;
-  font-size: 24px;
-  font-weight: 500;
-  letter-spacing: 0;
-  line-height: normal;
-  text-align: center;
-}
-
-.council-card .council-img{
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 350px;
-  height: 411px;
-  border-radius: 28px 28px 0px 0px;
-}
-
-
 
 /* COUNCIL CARD END */

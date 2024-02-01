@@ -10,7 +10,6 @@ const AboutUsCard = ({image, desc, check}) => {
         <div className="content-home">
           <div style={{paddingBottom : "20px"}}>
             <p className="p1content-home">About {check ? <p className='p2content-home'>DoReMiPa</p> : "Us"}</p>
-            
           </div>
           <p className="p3content-home">
             {desc}

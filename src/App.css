@@ -1009,7 +1009,8 @@
   width: 280px;
   height: 390px;
   border-radius: 29px;
-  border: 7px solid #FFF;
+  overflow: hidden;
+
 }
 
 .acc-name{

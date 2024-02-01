@@ -14,7 +14,7 @@ const AboutUsCard = ({image, desc, check}) => {
           <p className="p3content-home">
             {desc}
           </p>
-          <button className="but-home"><a href={`/doremipa`}>Learn More</a></button>
+          <button className="but-home"><a href={`/doremipa`}>Register Now</a></button>
         </div>
       </div>
   )

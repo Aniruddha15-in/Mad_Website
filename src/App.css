@@ -115,10 +115,10 @@
   
 }
 
-.hero-doremipa {
+.hero-doremipa{
   margin-top: -100px;
   margin-bottom: -100px;
-  object-fit: cover;
+  object-fit: contain;
   width: 100%;
 }
 
@@ -246,11 +246,11 @@
   font-family: "Manrope-SemiBold", Helvetica;
   font-size: 64px;
   font-weight: 600;
-  left: 0;
+  left: 0px;
   letter-spacing: 0;
   line-height: 60px;
   position: absolute;
-  top: 0;
+  top: 0px;
   white-space: nowrap;
 }
 
@@ -258,15 +258,58 @@
   color: #000;
   font-family: "Manrope-Regular", Helvetica;
   font-size: 15px;
-  font-weight: 200;
+  font-weight: 300;
   left: 500px;
   letter-spacing: 0;
   line-height: normal;
   position: absolute;
   top: 0;
-  width: 773px;
+  width: 66%;
+  flex-wrap: wrap;
+  display: flex;
 }
 
+.hero-doremipa img{
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .hero-doremipa img{
+    padding-top: 20vw;
+  }
+  .about-doremipa-sec{
+    bottom: 20vw;
+  }
+  .about-doremipa-sec .group{
+    height: 20vw;
+  }
+  .about-doremipa-sec .div{
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 0px;
+    left: 20vw;
+    top: 50px;
+  }
+
+  .about-doremipa-sec .text-1{
+    font-size: 4vw;
+    top: -60px;
+  }
+
+  .about-doremipa-sec .p{
+    top: -25px;
+    left: 0px;
+    width: 90%;
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .hero-doremipa img{
+    padding-top: 30vw;
+  }
+  
+}
 
 .frame {
   background-color: #ffffff;
@@ -941,8 +984,8 @@
 
 .carousel .our-acts{
   position: absolute;
-  top: 45px;
-  left: 105px;
+  top: 3vw;
+  left: 12vw;
   font-family: "Manrope-Regular", Helvetica;
   font-size: 20px;
   line-height: normal;
@@ -952,6 +995,11 @@
   text-shadow: 4px 2px 2px #000000bf;
 }
 
+@media screen and (max-width: 1100px) {
+  .carousel .our-acts{
+    font-size: 10px;
+  }
+}
 /* CAROUSEL END */
 
 
@@ -1102,6 +1150,11 @@
   line-height: normal;
   text-align: center;
   margin: 45px;
+}
+
+.council-column .council-pos{
+  position: relative;
+  bottom: 60px;
 }
 
 .about .card-wrapper{

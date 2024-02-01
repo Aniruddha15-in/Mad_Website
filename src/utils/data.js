@@ -1,4 +1,5 @@
 import bhau from "../assets/artists/bhau.png";
+import sabya from "../assets/accolades/sabya.png";
 
 export const artist = [
     {
@@ -34,3 +35,78 @@ export const artist = [
         spotify: "",
     },
 ];
+
+export const westernSolos = [
+  {
+    image: sabya,
+    name: 'Apoorv',
+    tag: 'BTech (Chemical Engg.)',
+  },
+  {
+    image: sabya,
+    name: 'Apoorv',
+    tag: 'BTech (Chemical Engg.)',
+  },
+  {
+    image: sabya,
+    name: 'Apoorv',
+    tag: 'BTech (Chemical Engg.)',
+  },
+  {
+    image: sabya,
+    name: 'Apoorv',
+    tag: 'BTech (Chemical Engg.)',
+  },
+  {
+    image: sabya,
+    name: 'Apoorv',
+    tag: 'BTech (Chemical Engg.)',
+  },
+  {
+    image: sabya,
+    name: 'Apoorv',
+    tag: 'BTech (Chemical Engg.)',
+  },
+]
+
+export const indianSolos = [
+  {
+    image: sabya,
+    name: 'Apoorv',
+    tag: 'BTech (Chemical Engg.)',
+  },
+  {
+    image: sabya,
+    name: 'Apoorv',
+    tag: 'BTech (Chemical Engg.)',
+  },
+  {
+    image: sabya,
+    name: 'Apoorv',
+    tag: 'BTech (Chemical Engg.)',
+  },
+]
+
+export const instrumental = [
+  {
+    image: sabya,
+    name: 'Apoorv',
+    tag: 'BTech (Chemical Engg.)',
+  },
+]
+
+export const band = [
+  {
+    image: sabya,
+    name: 'Apoorv',
+    tag: 'BTech (Chemical Engg.)',
+  },
+]
+
+export const acapella = [
+  {
+    image: sabya,
+    name: 'Apoorv',
+    tag: 'BTech (Chemical Engg.)',
+  },
+]

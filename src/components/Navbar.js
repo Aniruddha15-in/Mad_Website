@@ -5,9 +5,9 @@ import { useLocation } from 'react-router-dom';
 
 const Navbar = () => {
 
-  const currentUrl = window.location.href;
+  const currentUrl = 2;
 
-  const currUrl = useLocation();
+  // const currUrl = useLocation();
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {

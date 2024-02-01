@@ -14,6 +14,16 @@ const Doremipa = () => {
     <div className='Doremipa'>
       <div className="hero-doremipa">
         <img src={hero} alt="Doremipa Hero" />
+        <div className="about-doremipa-sec">
+          <div className="group">
+            <div className="div">
+              <div className="text-1">About Us</div>
+              <p className="p">
+  DoReMiPa includes six musical competitions that showcase a diverse array of musical styles, encompassing Indian, Western, and Instrumental genres and draws participation from all major colleges in the Delhi NCR as well as other parts of India.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="frame">
@@ -48,7 +58,7 @@ const Doremipa = () => {
 
 
 
-      <h1 style={{color: 'white', textAlign : 'center', marginBottom: "100px", fontFamily: "Manrope", fontSize: '64px', fontWeight: '600'}}>Sub-Categories</h1>
+      <h1 style={{color: 'white', textAlign : 'center', marginBottom: "50px", fontFamily: "Manrope", fontSize: '64px', fontWeight: '600'}}>Sub-Categories</h1>
 
       <div className="subcategory">
         <SubCategoryCard alt = "Vocalicious" src = {ladygaga} link={`https://docs.google.com/forms/d/1bzLcU9_DJYQ645rsjy1OSYBN-T7ToTJAGjlvlM-JVos/viewform`}/>

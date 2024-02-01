@@ -21,7 +21,7 @@ function App() {
         <Route path="/about-us" element={<About />} />
         <Route path="/doremipa" element={<Doremipa />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }

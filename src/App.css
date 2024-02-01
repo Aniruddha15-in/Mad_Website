@@ -147,6 +147,10 @@
   .subcategorycard {
     margin: 20px;
   }
+
+  .overlay .info{
+    font-size: 5px;
+  }
 }
 
 .subCat{
@@ -157,6 +161,7 @@
   font-size: 64px;
   font-weight: 600;
 }
+
 
 @media screen and (max-width:520px){
 .subCat{
@@ -271,7 +276,7 @@
   border-radius: 30px;
   height: 197px;
   overflow: hidden;
-  width: 1348px;
+  width: 80%;
   margin-top: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -366,7 +371,7 @@
 
 @media screen and (max-width:800px) {
   .frame {
-    width: 95vw;
+    width: 80vw;
     height: fit-content;
     flex-direction: column;
     gap: 10px;

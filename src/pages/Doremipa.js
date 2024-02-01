@@ -41,13 +41,13 @@ const Doremipa = () => {
           </div>
         </div>
         <div className="div-2">
-          <div className="text-wrapper-3">Prize Pool Worth</div>
+          <div className="text-wrapper">Prize Pool Worth</div>
           <div className="div-wrapper">
             <div className="text-wrapper-2">₹100k+</div>
           </div>
         </div>
         <div className="div-2">
-          <div className="text-wrapper-3">Participating Colleges</div>
+          <div className="text-wrapper">Participating Colleges</div>
           <div className="div-wrapper">
             <div className="text-wrapper-2">100+</div>
           </div>

@@ -21,7 +21,7 @@ const About = () => {
   return (
     <div className='about'>
       
-      <div style={{ paddingTop: '170px' }}>
+      <div style={{ paddingTop: '150px' }}>
         <Carousel images = {images} acts={2}/>
       </div>
 

@@ -454,55 +454,49 @@
 }
 
 .hero-home {
-  padding-top: 80px;
+  padding-top: 50px;
 }
 
 .hero-home img {
   object-fit: cover;
   display: flex;
-  /* width: 100vh; */
-  /* height:1080px; */
-  width: 1920px;
+  width: 100vw;
 }
 
 .about-home {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin: 5vw 2.5vw;
   display: inline-flex;
-  height: 479.396px;
-  padding: 46.455px 174.206px 46.455px 0px;
-  justify-content: center;
+  height: 29vw;
+  padding: 0vw 8vw 0vw 0vw;
+  justify-content: space-between;
   align-items: center;
-  gap: 116.137px;
-  flex-shrink: 0;
-  border-radius: 34.841px;
+  gap: 10vw;
+  flex-shrink: 1;
+  border-radius: 2vw;
   background: #ECECEC;
-  width: 82.5%;
+  width: 82%;
   overflow: hidden;
+
 }
 
 .about-home img {
-  width: 627.081px;
-  height: 572.891px;
-  flex-shrink: 0;
-  margin-top: 3.5px;
-  border-radius: 23.227px 0px 0px 23.227px;
-  box-shadow: 2.686px 5.373px 5.373px 0px rgba(0, 0, 0, 0.37);
+  width: 100%;
+  border-radius: 2vw 0vw 0vw 2vw;
 }
 
 .content-home {
   display: flex;
-  width: 666.629px;
+  width: 35.5vw;
   flex-direction: column;
   align-items: flex-start;
-  gap: 18.582px;
+  gap: -3vw;
 }
 
 .p1content-home {
   color: #000;
-  margin: 0px;
-  font-family: Manrope;
-  font-size: 74.328px;
+  margin: 0vw;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 4vw;
   font-style: normal;
   font-weight: 400;
   line-height: 100%; /* 74.328px */
@@ -510,39 +504,62 @@
 
 .p2content-home {
   color: #000;
-  margin: 0px;
-  font-family: Manrope;
-  font-size: 74.328px;
+  margin: 0vw;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 4vw;
   font-style: normal;
   font-weight: 700;
   line-height: 100%;
 }
 
 .p3content-home {
-  width: 666.629px;
-  height: 197.434px;
+  width: 36vw;
+  height: 10vw;
   color: #000;
-  font-family: Manrope;
-  font-size: 17.421px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 1vw;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin: 0vw 1vw 0vw 0vw;
 }
 
+@media screen and (max-width:1100){
+  .about-home{
+    gap: 5vw;
+  }
+
+  .content-home{
+    gap: 0vw;
+  }
+  .p3content-home {
+    height: 20vw;
+    font-size: 30px;
+  }
+}
 .but-home {
   display: flex;
-  padding: 9.291px 18.582px;
+  padding: 0.8vw 0.8vw;
   justify-content: center;
   align-items: center;
-  gap: 18.582px;
+  gap: 0vw;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 1vw;
+  background-color: #000;
+  border-radius: 0.5vw;
+  text-decoration: none;
 }
 
 .but-home a:link{
 
+  color: #FFF;
+  background-color: #000;
+  text-decoration: none;
 }
 
 .but-home a:visited{
-  
+  color: #FFF;
+  background-color: #000;
 }
 
 .sponsors {
@@ -1133,7 +1150,7 @@
   color: #FFF;
   font-family: "Manrope-SemiBold", Helvetica;
   text-align: center;
-  font-size: 64px;
+  font-size: 4vw;
   font-weight: 400;
   letter-spacing: 0;
   line-height: normal;
@@ -1144,14 +1161,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 133px;
-  gap: 12.25px;
-  padding: 10px 20px;
+  width: 8vw;
+  gap: 0.8vw;
+  padding: 0.625vw 1.25vw;
   position: relative;
   background-color: #fff;
-  border-radius: 4px;
+  border-radius: 0.25vw;
   margin: auto;
-  margin-bottom: 80px;
+  margin-bottom: 5vw;
 }
 
 .year-wrapper .year{
@@ -1159,7 +1176,7 @@
   width: fit-content;
   color: #000;
   font-family: "Manrope-Regular", Helvetica;
-  font-size: 24px;
+  font-size: 1.5vw;
   font-weight: 400;
   letter-spacing: 0;
   line-height: normal;
@@ -1169,24 +1186,31 @@
 .about .council-pos{
   color: #FFF;
   font-family: "Manrope-Regular", Helvetica;
-  font-size: 40px;
+  font-size: 2.5vw;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   text-align: center;
-  margin: 45px;
+  margin: 2.7vw;
 }
 
 .council-column .council-pos{
   position: relative;
-  bottom: 60px;
+  bottom: 3.75vw;
+  width: 32vw;
+}
+
+@media screen and (max-width: 800px) {
+  .council-column .council-pos{
+    width: 20vw;
+  }
 }
 
 .about .card-wrapper{
   align-items: center;
   display: flex;
   flex: 0 0 auto;
-  gap: 45px;
+  gap: 2.8vw;
   justify-content: center;
   position: relative;
 }
@@ -1195,7 +1219,7 @@
   align-items: center;
   display: inline-flex;
   flex: 0 0 auto;
-  gap: 50px;
+  gap: 3.125vw;
   justify-content: center;
   position: relative;
 }
@@ -1208,9 +1232,9 @@
   flex-direction: column;
   justify-content: space-between;
   position: relative;
-  width: 350px;
-  height: 479px;
-  margin-bottom: 100px;
+  width: 22vw;
+  height: 30vw;
+  margin-bottom: 6.25vw;
 }
 
 .council-card .group{
@@ -1220,8 +1244,8 @@
   position: relative;
   top: 0;
   left: 0;
-  width: 350px;
-  height: 479px;
+  width: 22vw;
+  height: 30vw;
   
 }
 
@@ -1230,10 +1254,10 @@
   flex-direction: column;
   justify-content: space-between;
   position: absolute;
-  top: 411px;
-  left: 0px;
-  width: 352px;
-  height: 68px;
+  top: 25.3vw;
+  left: 0vw;
+  width: 22vw;
+  height: 4.1vw;
 }
 
 .council-card .overlap-group{
@@ -1241,21 +1265,21 @@
   flex-direction: column;
   justify-content: space-between;
   position: relative;
-  width: 350px;
-  height: 68px;
+  width: 21.875vw;
+  height: 4.1vw;
   background-color: #fff;
-  border-radius: 0px 0px 28px 28px;
+  border-radius: 0vw 0vw 1.75vw 1.75vw;
 }
 
 .council-card .council-name{
   position: absolute;
-  top: 16px;
-  left: 124px;
-  width: 102px;
+  top: 1vw;
+  left: 7.9vw;
+  width: 6.26vw;
   height: auto;
   color: #272727;
   font-family: "Manrope-Medium", Helvetica;
-  font-size: 24px;
+  font-size: 1.5vw;
   font-weight: 500;
   letter-spacing: 0;
   line-height: normal;
@@ -1266,9 +1290,9 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 350px;
-  height: 411px;
-  border-radius: 28px 28px 0px 0px;
+  width: 21.875vw;
+  height: 25.6875vw;
+  border-radius: 1.75vw 1.75vw 0vw 0vw;
 }
 
 /* COUNCIL CARD END */

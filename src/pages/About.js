@@ -54,7 +54,7 @@ const About = () => {
           <div>
             <CouncilCard img={sabya} name = "Sabya" alt="Sabya" />
           </div>
-          <div className='council-pos' style={{width:"450px"}}>VICE-PRESIDENTS</div>
+          <div className='council-pos'>VICE-PRESIDENTS</div>
           <div>
             <CouncilCard img={daksh} name = "Daksh" alt="Daksh" />
           </div>
@@ -66,7 +66,7 @@ const About = () => {
           <div>
             <CouncilCard img={akk} name = "Akkshita" alt="Akkshita" />
           </div>
-          <div className='council-pos' style={{width:"450px"}}>GENERAL SECRETARIES</div>
+          <div className='council-pos'>GENERAL SECRETARIES</div>
           <div>
             <CouncilCard img={ansh} name = "Ansh" alt="Ansh" />
           </div>

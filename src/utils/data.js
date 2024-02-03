@@ -47,7 +47,7 @@ export const westernSolos = [
     image: sabya,
     name: 'Apoorv',
     tag: 'BTech (Chemical Engg.)',
-    wins: '1st - Amity University, Noida 1st - Kamla Nehru College 1st - Lady Irwin College 1st - IIT Bombay 1st - NSUT 2nd - SRCC 2nd - MAIT 2nd - Maitreyi College2nd - Deshbandhu College'
+    wins: '1st - Amity University, Noida \n1st - Kamla Nehru College \n1st - Lady Irwin College \n1st - IIT Bombay \n1st - NSUT \n2nd - SRCC \n2nd - MAIT \n2nd - Maitreyi College \n2nd - Deshbandhu College'
   },
   {
     image: sabya,

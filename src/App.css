@@ -1067,6 +1067,8 @@
   gap: 0px;
 }
 
+
+
 .acc-heading{
   color: #ECECEC;
   font-family: Manrope;
@@ -1114,13 +1116,52 @@
   justify-content: flex-start;
 }
 
-.accoladesCard img{
+.accHover{
+  background: white;
+  z-index:99;
   width: 280px;
   height: 390px;
   border-radius: 29px;
   overflow: hidden;
-
+  width: 280px;
+  height: 390px;
+  border-radius: 29px;
+  overflow: hidden;
+  text-align: center;
+  font-size: 21px;
+  font-family: Manrope, 'sans-serif';
+  display:flex;
+  justify-content: center;
+  opacity: 1;
+  transition: all ease-in-out 0.4s;
 }
+
+.accHover p{
+  width: 270px; 
+}
+
+.accHover{
+  max-height: 0px;
+  opacity: 0;
+}
+
+.acc-img{
+  display: block;
+  width: 280px;
+  height: 390px;
+  border-radius: 29px;
+  overflow: hidden;
+}
+
+.accoladesCard:hover img{
+  opacity: 0;
+  max-height: 0;
+} 
+
+.accoladesCard:hover .accHover{
+  max-height: 390px;
+  opacity: 1;
+} 
 
 .acc-name{
   color: #FFF;

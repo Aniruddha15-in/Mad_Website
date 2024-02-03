@@ -12,7 +12,7 @@ const Accolades = () => {
         <p className='heading-cardsec'>WESTERN SOLOS 2022-23</p>
         <div className='cards-container'>
           {westernSolos.map((person) => (
-            <AccoladesCard image={person.image} name={person.name} tag={person.tag}/>
+            <AccoladesCard image={person.image} name={person.name} tag={person.tag} wins={person.wins}/>
           ))}
         </div>
       </div>

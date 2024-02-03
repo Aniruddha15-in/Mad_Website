@@ -41,31 +41,37 @@ export const westernSolos = [
     image: sabya,
     name: 'Apoorv',
     tag: 'BTech (Chemical Engg.)',
+    wins: "1st - Acharya N. Dev College \n1st - Motilal Nehru College \n3rd - Sri Aurobindo College \n3rd - Dyal Singh College \nSpecial Mention JMC \nSpecial Mention MAIT"
   },
   {
     image: sabya,
     name: 'Apoorv',
     tag: 'BTech (Chemical Engg.)',
+    wins: '1st - Amity University, Noida 1st - Kamla Nehru College 1st - Lady Irwin College 1st - IIT Bombay 1st - NSUT 2nd - SRCC 2nd - MAIT 2nd - Maitreyi College2nd - Deshbandhu College'
   },
   {
     image: sabya,
     name: 'Apoorv',
     tag: 'BTech (Chemical Engg.)',
+    wins: ''
   },
   {
     image: sabya,
     name: 'Apoorv',
     tag: 'BTech (Chemical Engg.)',
+    wins: ''
   },
   {
     image: sabya,
     name: 'Apoorv',
     tag: 'BTech (Chemical Engg.)',
+    wins: ''
   },
   {
     image: sabya,
     name: 'Apoorv',
     tag: 'BTech (Chemical Engg.)',
+    wins: ''
   },
 ]
 
@@ -74,16 +80,19 @@ export const indianSolos = [
     image: sabya,
     name: 'Apoorv',
     tag: 'BTech (Chemical Engg.)',
+    wins: ''
   },
   {
     image: sabya,
     name: 'Apoorv',
     tag: 'BTech (Chemical Engg.)',
+    wins: ''
   },
   {
     image: sabya,
     name: 'Apoorv',
     tag: 'BTech (Chemical Engg.)',
+    wins: ''
   },
 ]
 
@@ -92,6 +101,7 @@ export const instrumental = [
     image: sabya,
     name: 'Apoorv',
     tag: 'BTech (Chemical Engg.)',
+    wins: ''
   },
 ]
 
@@ -100,6 +110,7 @@ export const band = [
     image: sabya,
     name: 'Apoorv',
     tag: 'BTech (Chemical Engg.)',
+    wins: ''
   },
 ]
 
@@ -108,5 +119,6 @@ export const acapella = [
     image: sabya,
     name: 'Apoorv',
     tag: 'BTech (Chemical Engg.)',
+    wins: ''
   },
 ]

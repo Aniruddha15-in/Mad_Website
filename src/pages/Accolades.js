@@ -21,7 +21,7 @@ const Accolades = () => {
         <p className='heading-cardsec'>INDIAN SOLOS 2022-23</p>
         <div className='cards-container'>
           {indianSolos.map((person) => (
-            <AccoladesCard image={person.image} name={person.name} tag={person.tag}/>
+            <AccoladesCard image={person.image} name={person.name} tag={person.tag} wins={person.wins}/>
           ))}
         </div>
       </div>
@@ -30,7 +30,7 @@ const Accolades = () => {
         <p className='heading-cardsec'>INSTRUMENTAL SOLOS 2022-23</p>
         <div className='cards-container'>
           {instrumental.map((person) => (
-            <AccoladesCard image={person.image} name={person.name} tag={person.tag}/>
+            <AccoladesCard image={person.image} name={person.name} tag={person.tag} wins={person.wins}/>
           ))}
         </div>
       </div>

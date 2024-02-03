@@ -1,5 +1,12 @@
 import bhau from "../assets/artists/bhau.png";
 import sabya from "../assets/accolades/sabya.png";
+import apoorv from "../assets/accolades/apoorv.png";
+import anasuya from "../assets/accolades/anasuya.png";
+import jahnavi from "../assets/accolades/jahnavi.png";
+import akarshita from '../assets/accolades/akarshita.png';
+import saksham from '../assets/accolades/saksham.png';
+import jangid from '../assets/accolades/jangid.png';
+import jayant from '../assets/accolades/jayantsaksham.png';
 
 export const artist = [
     {
@@ -38,71 +45,77 @@ export const artist = [
 
 export const westernSolos = [
   {
-    image: sabya,
+    image: apoorv,
     name: 'Apoorv',
-    tag: 'BTech (Chemical Engg.)',
+    tag: 'B. Tech. (CE)',
     wins: "1st - Acharya N. Dev College \n1st - Motilal Nehru College \n3rd - Sri Aurobindo College \n3rd - Dyal Singh College \nSpecial Mention JMC \nSpecial Mention MAIT"
   },
   {
-    image: sabya,
-    name: 'Apoorv',
-    tag: 'BTech (Chemical Engg.)',
-    wins: '1st - Amity University, Noida \n1st - Kamla Nehru College \n1st - Lady Irwin College \n1st - IIT Bombay \n1st - NSUT \n2nd - SRCC \n2nd - MAIT \n2nd - Maitreyi College \n2nd - Deshbandhu College'
+    image: anasuya,
+    name: 'Anasuya Mithra',
+    tag: 'B. Tech. (IT)',
+    wins: '1st - Amity University, Noida\n1st - Kamla Nehru College\n1st - Lady Irwin College\n1st - IIT Bombay\n1st - NSUT\n2nd - SRCC\n2nd - MAIT\n2nd - Maitreyi College\n2nd - Deshbandhu College'
+  },
+  {
+    image: jahnavi,
+    name: 'Jahnavi Rajaram',
+    tag: 'B. Des.',
+    wins: '1st - Sri Aurobindo College\n1st - Ramjas College\n1st - PGDAV College\n1st - Gargi College\n1st - CVS\n1st - JMC\n2nd - Swami Shraddhanand\n3rd - Dyal Singh College\n3rd - SSCBS\n3rd - IIT Delhi'
   },
   {
     image: sabya,
-    name: 'Apoorv',
-    tag: 'BTech (Chemical Engg.)',
-    wins: ''
+    name: 'Anubhav Dhyani',
+    tag: 'BTech (Mech Engg.)',
+    wins: '3rd - Deshbandhu College'
   },
   {
-    image: sabya,
-    name: 'Apoorv',
-    tag: 'BTech (Chemical Engg.)',
-    wins: ''
+    image: akarshita,
+    name: 'Akarshita',
+    tag: 'B. Des.',
+    wins: '2nd - Motilal Nehru College'
   },
   {
-    image: sabya,
-    name: 'Apoorv',
-    tag: 'BTech (Chemical Engg.)',
-    wins: ''
-  },
-  {
-    image: sabya,
-    name: 'Apoorv',
-    tag: 'BTech (Chemical Engg.)',
-    wins: ''
+    image: saksham,
+    name: 'Saksham Sehgal',
+    tag: 'B. Tech. (EP)',
+    wins: '3rd - Lady Irwin College'
   },
 ]
 
 export const indianSolos = [
   {
     image: sabya,
-    name: 'Apoorv',
-    tag: 'BTech (Chemical Engg.)',
-    wins: ''
+    name: 'Sarthak',
+    tag: 'B. Tech. (EE)',
+    wins: '1st - Shivaji College\n1st - UCMS\n1st - PGDAV (E)\n1st - ADGITM\n1st - Amity University, Noida\n1st - MAIT\n1st - Bharati College\n1st - IGDTUW\n2nd - Mata Sundari College\n2nd - BVIMR\n3rd - Dyal Singh College\nSpecial Mention AND College\nSpecial Mention IIT Delhi'
   },
   {
     image: sabya,
-    name: 'Apoorv',
-    tag: 'BTech (Chemical Engg.)',
-    wins: ''
+    name: 'Sabyasachi',
+    tag: 'BTech (PIE)',
+    wins: 'Special Mention PGDAV (E)'
   },
   {
-    image: sabya,
-    name: 'Apoorv',
-    tag: 'BTech (Chemical Engg.)',
-    wins: ''
+    image: jangid,
+    name: 'Abhishek Jangid',
+    tag: 'B. Tech. (ECE)',
+    wins: '2nd - SBSC'
   },
 ]
 
 export const instrumental = [
   {
-    image: sabya,
-    name: 'Apoorv',
-    tag: 'BTech (Chemical Engg.)',
-    wins: ''
+    image: jayant,
+    name: 'Jayant Saksham',
+    tag: 'B. Tech. (MCE)',
+    wins: '1st - Sri Aurobindo College\n1st - IIIT Delhi\n2nd - Deshbandhu College\nSpecial Mention Ramjas'
   },
+  {
+    image: sabya,
+    name: 'Madhav',
+    tag: 'B. Tech. (Mech Engg.)',
+    wins: '2nd - NSUT\n2nd - PGDAV College'
+  }
 ]
 
 export const band = [

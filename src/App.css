@@ -1072,28 +1072,28 @@
 .acc-heading{
   color: #ECECEC;
   font-family: Manrope;
-  font-size: 64px;
+  font-size: 4vw;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin: 0px;
-  margin-top: 20px;
+  margin: 0vw;
+  margin-top: 1.25vw;
 }
 
 .heading-cardsec{
   color: #FFF;
-  font-family: Manrope;
-  font-size: 25px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 1.5625vw;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin: 0px;
-  margin-bottom: 40px;
+  margin: 0vw;
+  margin-bottom: 2.5vw;
 }
 
 .card-section{
   height: auto;
-  margin: 50px;
+  margin: 3.125vw;
   display: flex;
   flex-direction: column;
   gap: 0px;
@@ -1102,10 +1102,10 @@
 .cards-container{
   display: flex;
   flex-wrap: wrap;
-  width: 1550px;
+  width: 96.875vw;
   align-items: flex-start;
   align-content: flex-start;
-  gap: 56px 129px;
+  gap: 3.5vw 8.125vw;
   flex-shrink: 0;
 }
 
@@ -1118,26 +1118,22 @@
 
 .accHover{
   /* all: unset; */
+  display:flex;
+  width: 16.25vw;
+  height: 23.125vw;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 1.25vw;
+  background: white;
+  padding-top: 1.25vw;
+  padding-left: 0.625vw;
+  padding-right: 0.625vw;
+  z-index:99;
+  border-radius: 1.8125vw;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
   white-space: pre-line;  
   vertical-align: bottom;
-  background: white;
-  z-index:99;
-  width: 280px;
-  height: 390px;
-  border-radius: 29px;
-  overflow: hidden;
-  width: 260px;
-  height: 370px;
-  padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 29px;
-  overflow: hidden;
-  text-align: center;
-  font-size: 20px;
-  font-family: Manrope, 'sans-serif';
-  display:flex;
-  justify-content: center;
   opacity: 1;
   transition: all ease-in-out 0.4s;
   position: absolute;
@@ -1145,7 +1141,7 @@
 }
 
 .accHover p{
-  width: 270px; 
+  width: 16.875vw; 
 }
 
 .accHover{
@@ -1154,9 +1150,9 @@
 
 .acc-img{
   display: block;
-  width: 280px;
-  height: 390px;
-  border-radius: 29px;
+  width: 17.5vw;
+  height: 24.375vw;
+  border-radius: 1.8125vw;
   overflow: hidden;
 }
 
@@ -1168,8 +1164,8 @@
 .acc-name{
   color: #FFF;
   text-align: center;
-  font-family: Manrope;
-  font-size: 30px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 1.875vw;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -1178,11 +1174,53 @@
 
 .acc-tag{
   color: #FFF;
-  font-family: Manrope;
-  font-size: 23px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 1.25vw;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .acc-heading{
+    font-size: 8vw;
+  }
+  .heading-cardsec{
+    text-align: center;
+    font-size: 3.125vw;
+    padding-bottom: 3vw;
+  }
+
+  .cards-container{
+    justify-content: space-evenly;
+    gap: 7vw 10vw;
+  }
+
+  .acc-img{
+    width: 35vw;
+    height: 48.75vw;
+  }
+
+  .accHover{
+    width: 32.5vw;
+    height: 46.25vw;
+    font-size: 2.5vw;
+    padding-top: 2.5vw;
+    padding-left: 1.25vw;
+    padding-right: 1.25vw;
+    border-radius: 3.625vw;
+  }
+
+  .acc-name{
+    font-size: 3vw;
+    font-weight: 600;
+  }
+
+  .acc-tag{
+    font-size: 2.5vw;
+    font-weight: 200;
+  }
 }
 
 /* ACCOLADES PAGE END*/

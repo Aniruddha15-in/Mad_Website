@@ -25,7 +25,6 @@ const AccoladesCard = ({ image, name, tag, wins }) => {
       
       <img src={image} className='acc-img' />
       <div className='accHover'>{wins}</div>
-
       <div>
         <p className='acc-name'>{name}</p>
         <p className='acc-tag'>{tag}</p>

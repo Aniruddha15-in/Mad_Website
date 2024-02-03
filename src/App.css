@@ -786,8 +786,8 @@
 
 .heading-artistPage {
   color: #fff;
-  font-family: Manrope;
-  font-size: 48px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 3vw;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -800,10 +800,11 @@
   justify-content: space-evenly;
   align-items: center;
   height: auto;
-  border-radius: 30px;
-  padding: 20px;
-  margin-bottom: 80px;
+  border-radius: 1.875vw;
+  padding: 1.25vw;
+  margin-bottom: 5vw;
 }
+
 
 .artist-sec1 {
   width: 35%;
@@ -814,7 +815,7 @@
 
 .artist-sec1 img {
   object-fit: contain;
-  height: 400px;
+  height: 25vw;
 }
 
 .artist-sec2 {
@@ -822,7 +823,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 2.5vw;
 }
 
 .heading-artist {
@@ -831,8 +832,8 @@
 
 .artist-name {
   color: #000;
-  font-family: Manrope;
-  font-size: 40px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 2.5vw;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -840,29 +841,30 @@
 
 .artist-tag {
   color: #aeaeae;
-  font-family: Manrope;
-  font-size: 40px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 2.5vw;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  padding-left: 10px;
+  padding-left: 0.625vw;
 }
 
 .artist-desc {
-  margin: 0px 0px 20px 0px;
+  margin: 0vw 0vw 0.625vw 0vw;
   color: #000;
-  font-family: Inter;
-  font-size: 14px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 0.875vw;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  white-space: pre-line;
 }
 
 .artist-spotify {
-  margin: 0px;
-  padding: 0px;
-  height: 150px;
-  margin-bottom: -35px;
+  margin: 0vw;
+  padding: 0vw;
+  height: 9.375vw;
+  margin-bottom: -2.1875vw;
 }
 
 .artist-links {
@@ -873,8 +875,64 @@
 
 .artist-link {
   object-fit: contain;
-  width: 50px;
-  height: 50px;
+  width: 3.125vw;
+  height: 3.125vw;
+}
+
+
+@media screen and (max-width: 800px) {
+  .heading-artistPage{
+    font-size: 6vw;
+  }
+  .artist-card{
+    display: inline-flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+  }
+
+  .artist-sec1{
+    width: 50%;
+  }
+  .artist-sec1 img {
+    padding-top: 0vw;
+    object-fit: contain;
+    height: 40vw;
+  }
+
+  .heading-artist{
+    justify-content: center;
+  }
+
+  .artist-sec2{
+    width: 90%;
+  }
+  
+  .artist-name{
+    font-size: 5vw;
+  }
+
+  .artist-tag{
+    font-size: 5vw;
+  }
+
+  .artist-desc{
+    font-size: 2.5vw;
+  }
+
+  .artist-spotify{
+    margin: 5vw 5vw;
+  }
+
+  .artist-links{
+    width: 100%;
+    padding-top: 10vw;
+    justify-content: space-evenly;
+  }
+  .artist-link{
+    width: 6.25vw;
+    height: 6.25vw;
+  }
 }
 
 /* ARTIST-PAGE END */

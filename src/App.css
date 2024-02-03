@@ -1117,6 +1117,9 @@
 }
 
 .accHover{
+  /* all: unset; */
+  white-space: pre-line;  
+  vertical-align: bottom;
   background: white;
   z-index:99;
   width: 280px;

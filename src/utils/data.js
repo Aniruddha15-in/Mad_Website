@@ -1,5 +1,8 @@
 import bhau from "../assets/artists/bhau.png";
 import sabya from "../assets/accolades/sabya.png";
+import fourforty from "../assets/accolades/fourforty.png";
+import dhoomketu from "../assets/accolades/dhoomketu.png";
+
 
 export const artist = [
     {
@@ -107,18 +110,30 @@ export const instrumental = [
 
 export const band = [
   {
-    image: sabya,
-    name: 'Apoorv',
-    tag: 'BTech (Chemical Engg.)',
+    image: fourforty,
+    name: '440HZ',
+    tag: 'Senior Band',
+    wins: ''
+  },
+  {
+    image: dhoomketu,
+    name: 'Dhoomketu',
+    tag: 'Junior Band',
     wins: ''
   },
 ]
 
 export const acapella = [
   {
-    image: sabya,
+    image: fourforty,
     name: 'Apoorv',
     tag: 'BTech (Chemical Engg.)',
+    wins: ''
+  },
+  {
+    image: dhoomketu,
+    name: 'Dhoomketu',
+    tag: 'Junior Band',
     wins: ''
   },
 ]

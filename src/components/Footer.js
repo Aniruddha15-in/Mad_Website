@@ -5,9 +5,11 @@ import emailFooter from "../assets/email-footer.png";
 import ig from "../assets/ig-footer.png";
 import yt from "../assets/youtube-footer.png";
 import li from "../assets/linkedin-footer.png";
+import logoMobile from '../assets/footer-logoMobile.png'
 
 const Footer = () => {
   return (
+    <>
     <div className='footer'>
       <div className='footer-sec1'>
         <img src={madLogo} className='madLogo-footer' />
@@ -38,6 +40,45 @@ const Footer = () => {
         </div>
       </div>
     </div>
+
+    <div className='footerMobile'>
+      
+      <div className='footer-sec1Mobile'>
+        <Link to="/" className='link1 linki'>Madhurima</Link>
+        <Link to="/" className='link2 linki'>Home</Link>
+        <Link to="/doremipa" className='link3 linki'>Do Re Mi Pa</Link>
+        <Link to="/accolades" className='link4 linki'>Accolades</Link>
+        <Link to="/about-us" className='link5 linki'>The Team</Link>
+      </div>
+      
+      <div className='footer-sec2Mobile'>
+        <img src={logoMobile} className='madLogo-footer' />
+        <div className='sec2-segment2'>
+          <p className='p-segment2'>Follow Madhurima</p>
+          <div className='icons-footer'>
+            <img src={ig} className='icon-footer' />
+            <img src={li} className='icon-footer' />
+            <img src={yt} className='icon-footer' />
+          </div>
+          <div className='email-footer'>
+            <img src={emailFooter} />
+            <p>madhurimamusicsociety@dtu.ac.in</p>
+          </div>
+        </div>
+      </div>
+      
+      <div className='footer-sec3Mobile'>
+        <a><p className='footer-p1'>CONTACT US</p></a>
+        <p className='footer-p2'>Delhi Technological University <br/>
+            Shahbad Daulatpur, Main Bawana <br/>
+            Road, Delhi <br/>
+            Pincode -110042 <br/>
+            <a><span className='span1-footer'>Email</span><span className='span2-footer'>: madhurimamusicsociety@dtu.ac.in</span></a>
+        </p>
+        
+      </div>
+    </div>
+    </>
   )
 }
 

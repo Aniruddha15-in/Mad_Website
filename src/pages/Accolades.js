@@ -1,6 +1,7 @@
 import React from 'react'
 import AccoladesCard from '../components/AccoladesCard'
 import { westernSolos, indianSolos, instrumental, band, acapella } from '../utils/data';
+import AccoladesCardBig from '../components/AccoladesCardBig';
 
 const Accolades = () => {
   return (
@@ -31,6 +32,24 @@ const Accolades = () => {
         <div className='cards-container'>
           {instrumental.map((person) => (
             <AccoladesCard image={person.image} name={person.name} tag={person.tag}/>
+          ))}
+        </div>
+      </div>
+
+      <div className='card-section'>
+        <p className='heading-cardsec'>BAND WINS 2022-23</p>
+        <div className='cards-container'>
+          {band.map((person) => (
+            <AccoladesCardBig image={person.image} name={person.name} tag={person.tag}/>
+          ))}
+        </div>
+      </div>
+
+      <div className='card-section'>
+        <p className='heading-cardsec'>ACAPELLA AND INDIAN CHOIR WINS 2022-23</p>
+        <div className='cards-container'>
+          {acapella.map((person) => (
+            <AccoladesCardBig image={person.image} name={person.name} tag={person.tag}/>
           ))}
         </div>
       </div>

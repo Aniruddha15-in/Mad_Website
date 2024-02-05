@@ -3,8 +3,6 @@ import React, {useState} from 'react'
 const AccoladesCard = ({ image, name, tag, wins }) => {
 
   return (
-    
-    
     <div className='accoladesCard'>
       <img src={image} className='acc-img' />
       <div className='accHover'>{wins}</div>

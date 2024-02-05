@@ -204,16 +204,6 @@
   transition: opacity 0.5s ease;
 }
 
-@media screen and (max-width: 640px) {
-  .subcategorycard {
-    margin: 1.25vw;
-  }
-
-  .overlay .info{
-    font-size: 0.3125vw;
-  }
-}
-
 .subCat{
   color: white;
   text-align : center;
@@ -226,7 +216,7 @@
 
 @media screen and (max-width:520px){
 .subCat{
-  font-size: 240%;
+  font-size: 8vw;
   text-align: center;
 }
 }
@@ -268,6 +258,21 @@
   font-size: 1.5vw;
   font-weight: 600;
 }
+
+@media screen and (max-width: 640px) {
+  .subcategorycard {
+    width: 30vw;
+    margin: 5vw;
+  }
+
+  .subcategorycard .hovered{
+    width: 30vw;
+  }
+  .overlay .info{
+    font-size: 3vw;
+  }
+}
+
 
 .info a:link {
   color: #fff;
@@ -336,7 +341,7 @@
 
 @media screen and (max-width: 1100px) {
   .hero-doremipa img{
-    padding-top: 10vw;
+    padding-top: 30vw;
     padding-bottom: 10vw;
   }
   .about-doremipa-sec{
@@ -344,7 +349,7 @@
     bottom: 18vw;
   }
   .about-doremipa-sec .group{
-    height: 18vw;
+    height: 20vw;
   }
   .about-doremipa-sec .div{
     flex-wrap: wrap;
@@ -355,23 +360,17 @@
   }
 
   .about-doremipa-sec .text-1{
-    font-size: 4vw;
-    top: -4vw;
+    font-size: 5vw;
+    top: -5vw;
   }
 
   .about-doremipa-sec .p{
     top: -1.5625vw;
     left: 0vw;
-    width: 90%;
-    font-size: 2vw;
+    width: 95%;
+    font-size: 2.1vw;
+    text-align: justify;
   }
-}
-
-@media screen and (max-width: 1100px) {
-  .hero-doremipa img{
-    padding-top: 30vw;
-  }
-  
 }
 
 .frame {
@@ -475,26 +474,26 @@
 @media screen and (max-width:1100px) {
   .frame {
     width: 75vw;
-    height: fit-content;
+    height: 50vw;
     flex-direction: column;
     gap: 0.625vw;
-    margin-top: 10vw;
+    margin-top: 20vw;
   }
 
   .frame .div-wrapper {
-    width: 6.25vw;
-    height: 3.125vw;
+    width: 12.5vw;
+    height: 6.25vw;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .frame .text-wrapper {
-    font-size: 2vw;
+    font-size: 4vw;
   }
 
   .frame .text-wrapper-2 {
-    font-size: 1.25vw;
+    font-size: 2.5vw;
   }
 
   .frame .div-2 {
@@ -678,7 +677,7 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .content-sponsors {
@@ -703,6 +702,16 @@
   object-fit: contain;
   width: 11vw;
 }
+
+@media screen and (max-width: 800px) {
+  
+  .current-sponsor {
+    width: 16vw;
+  }
+
+
+}
+
 
 .ig-embed {
   background-color: #1a1a1a;
@@ -734,7 +743,7 @@
   justify-content: space-evenly;
   align-items: center;
   height: 6.5vw;
-  overflow: hidden;
+  overflow-x: hidden;
   padding: 6.25vw 2.5vw; 
 }
 
@@ -892,7 +901,7 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    overflow: hidden;
+    overflow-x: hidden;
     margin-top: 1.25vw;
   }
 
@@ -1673,6 +1682,21 @@
   margin-top: -1.22px;
 }
 
+@media screen and (max-width: 800px){
+  .about .council-text{
+    font-size: 6vw;
+  }
+
+  .about .year-wrapper{
+    width: 12vw;
+    padding: 1.25vw 2.5vw;
+  }
+
+  .year-wrapper .year{
+    font-size: 2vw;
+  }
+}
+
 .about .council-pos{
   color: #FFF;
   font-family: "Manrope-Regular", Helvetica;
@@ -1753,7 +1777,7 @@
 .council-card .overlap-group{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   position: relative;
   width: 21.875vw;
   height: 4.1vw;
@@ -1762,10 +1786,8 @@
 }
 
 .council-card .council-name{
-  position: absolute;
-  top: 1vw;
-  left: 7.9vw;
-  width: 6.26vw;
+  position: relative;
+  width: auto;
   height: auto;
   color: #272727;
   font-family: "Manrope-Medium", Helvetica;
@@ -1774,6 +1796,7 @@
   letter-spacing: 0;
   line-height: normal;
   text-align: center;
+  justify-content: center;
 }
 
 .council-card .council-img{
@@ -1783,6 +1806,12 @@
   width: 21.875vw;
   height: 25.6875vw;
   border-radius: 1.75vw 1.75vw 0vw 0vw;
+}
+
+@media screen and (max-width: 800px) {
+  .council-card .council-name{
+    font-size: 2.5vw;
+  }
 }
 
 /* COUNCIL CARD END */

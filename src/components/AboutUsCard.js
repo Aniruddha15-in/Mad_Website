@@ -1,10 +1,15 @@
-import React from 'react'
+import React from 'react';
+import useWindowDimensions from "../utils/windowdimensions";
 
-const AboutUsCard = ({image, desc, check}) => {
+const AboutUsCard = ({image, imagemobile, desc, check}) => {
+  const {width} = useWindowDimensions();
   return (
     <div className="about-home">
         <div className="img-wrapper"style={{overflow: "hidden"}}>
-          <img src={image} alt='about'/>
+          {width>=800?
+          (<img src={image} alt='about'/>):
+          (<img src={imagemobile} alt='about-mobile'/>)
+          }
         </div>
         <div className="content-home">
           <div style={{paddingBottom : "2vw"}}>

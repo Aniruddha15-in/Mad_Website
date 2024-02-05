@@ -544,11 +544,38 @@
 
 }
 
+.about-home .img-wrapper{
+  width: 50%;
+  height: auto;
+}
+
 .about-home img {
   width: 100%;
   border-radius: 2vw 0vw 0vw 2vw;
 }
 
+
+
+@media screen and (max-width: 800px) {
+  .about-home{
+    height:max-content;
+    width: 80vw;
+    gap: 5vw;
+    justify-content: center;
+    padding: 0vw 2vw 0vw 0vw;
+  }
+
+  .about-home .img-wrapper{
+    width: 50%;
+    height: auto;
+    margin: 0vw 0vw -2vw 0vw;
+  }
+  
+  .about-home img{
+    width: 100%;
+  }
+
+}
 .content-home {
   display: flex;
   width: 35.5vw;
@@ -589,24 +616,31 @@
   margin: 0vw 1vw 0vw 0vw;
 }
 
+@media screen and (max-width:800px){
+  .content-home{
+    justify-content: space-evenly;
+  }
+
+  .p1content-home{
+    font-size: 6vw;
+  }
+  .p2content-home{
+    font-size: 6vw;
+  }
+
+  .p3content-home{
+    height: 45vw;
+    font-size:2vw;
+  }
+}
+
 @media(max-width:1100px){
   
   .hero-home{
-    margin: 120px;
+    margin-top: 120px;
   }
-  
-  /* .about-home{
-    gap: 5vw;
-  }
-
-  .content-home{
-    gap: 0vw;
-  }
-  .p3content-home {
-    height: 20vw;
-    font-size: 30px;
-  } */
 }
+
 .but-home {
   display: flex;
   padding: 0.8vw 0.8vw;
@@ -630,6 +664,13 @@
 .but-home a:visited{
   color: #FFF;
   background-color: #000;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+  .but-home{
+    font-size: 3vw;
+  } 
 }
 
 .sponsors {
@@ -692,18 +733,18 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 13vh;
+  height: 6.5vw;
   overflow: hidden;
-  padding: 100px 40px; 
+  padding: 6.25vw 2.5vw; 
 }
 
 
 .madLogo-footer {
   object-fit: contain;
-  height: 100px;
+  height: 6.25vw;
   position: relative;
-  left: 125px;
-  bottom: 20px;
+  left: 7.8125vw;
+  bottom: 1.25vw;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -756,15 +797,15 @@
   text-decoration: none;
   flex-direction: column;
   justify-content: space-evenly;
-  height: 255.33px;
+  height: 16vw;
 }
 
 .linki {
   text-decoration: none;
   color: black;
   color: #1a1a1a;
-  font-family: Manrope;
-  font-size: 14px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 0.875vw;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -784,8 +825,8 @@
 
 .footer-sec3 p {
   color: #1a1a1a;
-  font-family: Manrope;
-  font-size: 14px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 0.875vw;
   font-style: normal;
   line-height: normal;
 }
@@ -796,8 +837,8 @@
 
 .span1-footer {
   color: #1a1a1a;
-  font-family: Manrope;
-  font-size: 14px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 0.875vw;
   font-style: normal;
   line-height: normal;
   font-weight: 700;
@@ -805,8 +846,8 @@
 
 .span2-footer {
   color: #1a1a1a;
-  font-family: Manrope;
-  font-size: 14px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 0.875vw;
   font-style: normal;
   line-height: normal;
   font-weight: 400;
@@ -816,7 +857,7 @@
   display: flex;
   justify-content: space-between;
   width: 70%;
-  margin-top: 20px;
+  margin-top: 1.25vw;
 }
 
 .icon-footer {
@@ -852,7 +893,7 @@
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
-    margin-top: 10px;
+    margin-top: 1.25vw;
   }
 
   .footer-sec1Mobile{
@@ -863,16 +904,16 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    padding-bottom: 10px;
-    padding-top: 10px;
+    padding-bottom: 1.25vw;
+    padding-top: 1.25vw;
     overflow: hidden;
   }
 
   .linki {
     text-decoration: none;
     color: white;
-    font-family: Manrope;
-    font-size: 19px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-size: 3vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -884,8 +925,8 @@
   }
   
   .footer-sec2Mobile{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 5vw;
+    padding-bottom: 10vw;
     display: flex;
     justify-content: space-around;
     gap: 10px;
@@ -893,17 +934,17 @@
   }
 
   .madLogo-footer{
-    width: 107px;
-    height: 125px;
+    width: 21vw;
+    height: 23vw;
     object-fit: contain;
     position: relative;
-    left: -25px;
-    top: 20px;
+    left: -3.125vw;
+    top: 2.5vw;
   }
 
   .sec2-segment2{
-    padding-top: 20px;
-    width: 205px;
+    padding-top: 2.5vw;
+    width: 45vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -911,9 +952,9 @@
 
   .p-segment2{
     color: #1A1A1A;
-    margin: 0px;
-    font-size: 20px;
-    font-family: Manrope, 'sans-serif';
+    margin: 0vw;
+    font-size: 4vw;
+    font-family: "Manrope-Regular", Helvetica;
     font-weight: 700;
   }
 
@@ -924,19 +965,21 @@
 
   .email-footer p{
     color: #1A1A1A;
-    font-size: 13px;
-    font-family: Manrope, 'sans-serif';
+    font-size: 2.5vw;
+    font-family: "Manrope-Regular", Helvetica;
     font-weight: 400;
   }
 
   .email-footer img{
-    width: 20px;
-    height: 20px;
+    width: 4vw;
+    height: 4vw;
   }
-
+  .icons-footer{
+    width: 20vw;
+  }
   .icons-footer img{
-    width: 40px;
-    height: 40px;
+    width: 6vw;
+    height: 6vw;
   }
 
   .footer-sec3Mobile{
@@ -946,21 +989,21 @@
 
   .footer-p1{
     color: #1A1A1A;
-    font-size: 21.59px;
-    font-family: Manrope, 'sans-serif';
+    font-size: 4vw;
+    font-family: "Manrope-Regular", Helvetica;
     font-weight: 700;
   }
   
   .footer-p2{
     color: #1A1A1A;
-    font-size: 18px;
-    font-family: Manrope, 'sans-serif'
+    font-size: 3.2vw;
+    font-family: "Manrope-Regular", Helvetica;
   }
 
   .footer-p2 span{
     color: #1A1A1A;
-    font-size: 18px;
-    font-family: Manrope, 'sans-serif';
+    font-size: 3.2vw;
+    font-family: "Manrope-Regular", Helvetica;
   }
 
 }
@@ -1496,39 +1539,32 @@
   vertical-align: bottom;
   background: white;
   z-index:99;
-  border-radius: 29px;
   overflow: hidden;
-  width: 680px;
-  height: 370px;
-  padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 29px;
-  overflow: hidden;
+  width: 42.5vw;
+  height: 23.125vw;
+  padding: 1.25vw 0.625vw 0vw 0.625vw;
+  border-radius: 1.8125vw;
   text-align: center;
-  font-size: 20px;
-  font-family: Manrope, 'sans-serif';
+  font-size: 1.25vw;
+  font-family: "Manrope-Regular", Helvetica;
   display:flex;
   justify-content: center;
-  opacity: 1;
+  opacity: 0;
   transition: all ease-in-out 0.4s;
   position: absolute;
 
 }
 
 .accHover2 p{
-  width: 270px; 
+  width: 16.875vw; 
 }
 
-.accHover2{
-  opacity: 0;
-}
 
 .acc-img2{
   display: block;
-  width: 700px;
-  height: 390px;
-  border-radius: 29px;
+  width: 43.75vw;
+  height: 24.375vw;
+  border-radius: 1.8125vw;
   overflow: hidden;
 }
 
@@ -1540,8 +1576,8 @@
 .acc-name2{
   color: #FFF;
   text-align: center;
-  font-family: Manrope;
-  font-size: 30px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 1.875vw;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -1550,11 +1586,40 @@
 
 .acc-tag2{
   color: #FFF;
-  font-family: Manrope;
-  font-size: 23px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 1.5vw;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  text-align: center;
+}
+
+@media screen and (max-width:1100px) {
+  .acc-img2{
+    width: 87.5vw;
+    height: 48.75vw;
+    border-radius: 3.625vw;
+  }
+
+  .accHover2{
+    width: 85vw;
+    height: 46.25vw;
+    padding: 2.5vw 1.25vw 0vw 1.25vw;
+    border-radius: 3.625vw;
+  }
+  .accHover2 p{
+    width: 33.75vw; 
+  }
+
+  .acc-name2{
+    font-size: 3.75vw;
+    margin: 2vw 0vw 0vw 0vw;
+  }
+
+  .acc-tag2{
+    font-size: 3vw;
+    margin: 1vw;
+  }
 }
 
 /* ACCOLADES PAGE END*/

@@ -112,7 +112,7 @@
   background-color: #1a1a1a;
   padding-top: 115px;
   overflow-x: hidden;
-  
+  padding-bottom: 20px;
 }
 
 .hero-doremipa{
@@ -786,6 +786,7 @@
     justify-content: space-between;
     align-items: center;
     overflow: hidden;
+    margin-top: 10px;
   }
 
   .footer-sec1Mobile{

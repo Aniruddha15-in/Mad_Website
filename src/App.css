@@ -8,6 +8,10 @@
   overflow: hidden;
 }
 
+.nav-mobile{
+  display: none;
+}
+
 .nav-dontdisplay {
   display: none;
 }
@@ -42,6 +46,14 @@
 @media screen and (max-width: 1100px) {
   .navbar-sec1-link {
     font-size: 280%;
+  }
+
+  .navbar-sec1 img {
+    object-fit: cover;
+    margin-right: 5px;
+    margin-top: 3px;
+    width: 45px;
+    height: 45px;
   }
 }
 
@@ -79,7 +91,7 @@
 
 
 
-@media screen and (min-width:800px){
+@media screen and (min-width:1100px){
   .navbar-link{
     font-size: 120%;
   }
@@ -103,6 +115,55 @@
   line-height: normal;
   color: black;
 }
+
+@media(max-width: 1100px){
+  .navbar-sec2{
+    display:none;
+  }
+
+  .nav-mobile{
+    display: block;
+    height: auto;
+    width: 100%;
+    background-color: #1A1A1A;
+    overflow-x: hidden;
+  }
+
+  .dropbtn{
+    padding-left: 20px;
+  }
+  .dropIcon{
+    width: 33.23px;
+    height: 53.62px;
+  }
+
+  .drop-content{
+    /* display: none; */
+    background-color: #1A1A1A;
+    z-index: 25;
+    padding-left: 22px;
+    transition: all 0.5s ease-in;
+    /* max-height: 0px; */
+  }
+
+  .linknav-mobile{
+    color: white;
+    font-family: Manrope, 'sans-serif';
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 200;
+  }
+
+  .drop-content{
+    max-height: auto;
+  }
+
+
+  .empty-navmob{
+    display:none;
+  }
+}
+
 
 /* NAVBAR_END */
 
@@ -273,7 +334,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1100px) {
   .hero-doremipa img{
     padding-top: 10vw;
     padding-bottom: 10vw;
@@ -306,7 +367,7 @@
   }
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 1100px) {
   .hero-doremipa img{
     padding-top: 30vw;
   }
@@ -411,7 +472,7 @@
   position: relative;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:1100px) {
   .frame {
     width: 75vw;
     height: fit-content;
@@ -528,8 +589,13 @@
   margin: 0vw 1vw 0vw 0vw;
 }
 
-@media screen and (max-width:1100){
-  .about-home{
+@media(max-width:1100px){
+  
+  .hero-home{
+    margin: 120px;
+  }
+  
+  /* .about-home{
     gap: 5vw;
   }
 
@@ -539,7 +605,7 @@
   .p3content-home {
     height: 20vw;
     font-size: 30px;
-  }
+  } */
 }
 .but-home {
   display: flex;
@@ -602,13 +668,13 @@
   margin-bottom: 50px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1100px) {
   .ig-big {
     display: none;
   }
 }
 
-@media (min-width: 801px) {
+@media (min-width: 1100px) {
   .ig-small {
     display: none;
   }
@@ -775,7 +841,7 @@
   }
 } */
 
-@media (max-width: 800px){
+@media (max-width: 1100px){
   .footer{
     display: none;
   }
@@ -821,8 +887,9 @@
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 10px;
+    width: 85%;
   }
 
   .madLogo-footer{
@@ -1007,8 +1074,10 @@
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1100px) {
+  
   .heading-artistPage{
+    margin-top: 50px;
     font-size: 6vw;
   }
   .artist-card{
@@ -1065,9 +1134,13 @@
 /* ARTIST-PAGE END */
 
 /* EVENTS PAGE */
+
+
+
 .events {
   background-color: #1a1a1a;
   overflow-x: hidden;
+  /* padding-top: 80px; */
 }
 
 .events-header {
@@ -1149,10 +1222,13 @@
   flex-wrap: wrap;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1100px) {
   .events-header{
     padding-top: 3vw;
     font-size: 7vw;
+  }
+  .carousel{
+    padding-top: 27px;
   }
   .event-card{
     border-radius: 7px;
@@ -1366,7 +1442,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1100px) {
   .acc-heading{
     font-size: 8vw;
   }
@@ -1548,7 +1624,7 @@
   width: 32vw;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1100px) {
   .council-column .council-pos{
     width: 20vw;
   }

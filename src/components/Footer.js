@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import { Link } from 'react-router-dom';
 import madLogo from "../assets/logo-footer.png";
 import emailFooter from "../assets/email-footer.png";
@@ -8,6 +8,7 @@ import li from "../assets/linkedin-footer.png";
 import logoMobile from '../assets/footer-logoMobile.png'
 
 const Footer = () => {
+
   return (
     <>
     <div className='footer'>
@@ -19,11 +20,21 @@ const Footer = () => {
         </div>
       </div>
       <div className='footer-sec2'>
-        <Link to="/" className='link1 linki'>Madhurima</Link>
-        <Link to="/" className='link2 linki'>Home</Link>
-        <Link to="/doremipa" className='link3 linki'>Do Re Mi Pa</Link>
-        <Link to="/accolades" className='link4 linki'>Accolades</Link>
-        <Link to="/about-us" className='link5 linki'>The Team</Link>
+        <Link onClick={() => {
+          window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+        }} to="/" className='link1 linki'>Madhurima</Link>
+        <Link onClick={() => {
+          window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+        }} to="/" className='link2 linki'>Home</Link>
+        <Link onClick={() => {
+          window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+        }} to="/doremipa" className='link3 linki'>Do Re Mi Pa</Link>
+        <Link onClick={() => {
+          window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+        }} to="/accolades" className='link4 linki'>Accolades</Link>
+        <Link onClick={() => {
+          window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+        }} to="/about-us" className='link5 linki'>The Team</Link>
       </div>
       <div className='footer-sec3'>
         <a><p className='footer-p1'>Contact Us</p></a>
@@ -44,11 +55,21 @@ const Footer = () => {
     <div className='footerMobile'>
       
       <div className='footer-sec1Mobile'>
-        <Link to="/" className='link1 linki'>Madhurima</Link>
-        <Link to="/" className='link2 linki'>Home</Link>
-        <Link to="/doremipa" className='link3 linki'>Do Re Mi Pa</Link>
-        <Link to="/accolades" className='link4 linki'>Accolades</Link>
-        <Link to="/about-us" className='link5 linki'>The Team</Link>
+        <Link onClick={() => {
+          window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+        }} to="/" className='link1 linki'>Madhurima</Link>
+        <Link onClick={() => {
+          window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+        }} to="/" className='link2 linki'>Home</Link>
+        <Link onClick={() => {
+          window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+        }} to="/doremipa" className='link3 linki'>Do Re Mi Pa</Link>
+        <Link onClick={() => {
+          window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+        }} to="/accolades" className='link4 linki'>Accolades</Link>
+        <Link onClick={() => {
+          window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+        }} to="/about-us" className='link5 linki'>The Team</Link>
       </div>
       
       <div className='footer-sec2Mobile'>

@@ -16,7 +16,7 @@ const Events = () => {
   ];
   return (
     <>
-      <div style={{ paddingTop: '150px' }}>
+      <div className='carousel-events' style={{ paddingTop: '150px' }}>
         <Carousel images={images}/>
       </div>
 

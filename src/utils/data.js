@@ -3,12 +3,17 @@ import mayank from '../assets/artists/mayank.png';
 import shady from '../assets/artists/shady.png';
 import bharath from '../assets/artists/bharath.png';
 import vinayak from '../assets/artists/vinayak.png';
+import raeyna from '../assets/artists/raeyna.png';
+import jangidartist from '../assets/artists/jangid.png';
+import sehgal from '../assets/artists/sehgal.png';
+import manas from '../assets/artists/manas.png';
 
 
 import sabya from "../assets/accolades/sabya.png";
 import fourforty from "../assets/accolades/fourforty.png";
 import dhoomketu from "../assets/accolades/dhoomketu.png";
-
+import acapella from '../assets/accolades/acapella.png';
+import choir from '../assets/accolades/choir.png';
 import apoorv from "../assets/accolades/apoorv.png";
 import anasuya from "../assets/accolades/anasuya.png";
 import jahnavi from "../assets/accolades/jahnavi.png";
@@ -71,12 +76,42 @@ export const artist = [
   {
     name: 'Raeyna',
     tag: 'Artist, Producer',
-    image: '',
-    desc: '',
-    spotifyEmbed: "",
-    ig: "",
-    yt: "",
-    spotify: "",
+    image: raeyna,
+    desc: 'Thats why I paint',
+    spotifyEmbed: "https://open.spotify.com/embed/track/4Yn8DHwYgXKbNXsG3rJDeM?utm_source=generator",
+    ig: "https://www.instagram.com/raeyna/",
+    yt: "https://www.youtube.com/@raeyna1016",
+    spotify: "https://open.spotify.com/artist/4cSuJFjNwzW29ciFECV2dg",
+  },
+  {
+    name: 'Abhishek Vijay',
+    tag: 'Artist',
+    image: jangidartist,
+    desc: 'Thats why i paint',
+    spotifyEmbed: "https://open.spotify.com/embed/track/6Bzjz8l59MJUPMW1doUGMu?utm_source=generator",
+    ig: "https://www.instagram.com/abhishek.vijay_/",
+    yt: "https://www.youtube.com/channel/UCknezJETXI_jKBitZ7QSFjA",
+    spotify: "https://open.spotify.com/artist/2AAa9sPJ3QCEFxv0vwhFfs",
+  },
+  {
+    name: 'Saksham Sehgal',
+    tag: 'Artist',
+    image: sehgal,
+    desc: 'Thats why i paint',
+    spotifyEmbed: "https://open.spotify.com/embed/track/5zICn0hbsUvZBpHeffRQcj?utm_source=generator",
+    ig: "https://www.instagram.com/sakshamsehgal43/",
+    yt: "https://www.youtube.com/channel/UCwofb-HVmF7g1siXPWsbDoQ",
+    spotify: "https://open.spotify.com/artist/12P49nEzmoKmsmYuI8edpW",
+  },
+  {
+    name: 'Manas Swarnkar',
+    tag: 'Artist, Producer',
+    image: manas,
+    desc: 'Thats why i paint',
+    spotifyEmbed: "https://open.spotify.com/embed/track/4R8FaVQKyNnbcOTRtEUAyl?utm_source=generator",
+    ig: "https://www.instagram.com/manas_swarnkar/",
+    yt: "https://www.youtube.com/channel/UCoGJdOE3TtNBDs6fg9ypbFg",
+    spotify: "https://open.spotify.com/artist/1g3a4yCY2rjZY8fq5YqCHy",
   },
   {
     name: '',
@@ -172,27 +207,27 @@ export const band = [
     image: fourforty,
     name: '440HZ',
     tag: 'Senior Band',
-    wins: ''
+    wins: 'MDI Gurgaon - 2nd Position\nChrist University - 2nd Position\nLSR, DU - 3rd Position'
   },
   {
     image: dhoomketu,
     name: 'Dhoomketu',
     tag: 'Junior Band',
-    wins: ''
+    wins: 'NIFT, Delhi - 1st Position'
   },
 ]
 
-export const acapella = [
+export const group = [
   {
-    image: fourforty,
-    name: 'Apoorv',
-    tag: 'BTech (Chemical Engg.)',
-    wins: ''
+    image: acapella,
+    name: 'Acapella',
+    tag: '',
+    wins: 'Special Mention - Swami Shraddhanand College, DU'
   },
   {
-    image: dhoomketu,
-    name: 'Dhoomketu',
-    tag: 'Junior Band',
+    image: choir,
+    name: 'Indian Choir',
+    tag: '',
     wins: ''
   },
 ]

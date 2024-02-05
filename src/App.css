@@ -821,8 +821,9 @@
     padding-top: 20px;
     padding-bottom: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 10px;
+    width: 85%;
   }
 
   .madLogo-footer{

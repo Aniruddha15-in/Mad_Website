@@ -912,8 +912,8 @@
 
 .heading-artistPage {
   color: #fff;
-  font-family: Manrope;
-  font-size: 48px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 3vw;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -926,10 +926,11 @@
   justify-content: space-evenly;
   align-items: center;
   height: auto;
-  border-radius: 30px;
-  padding: 20px;
-  margin-bottom: 80px;
+  border-radius: 1.875vw;
+  padding: 1.25vw;
+  margin-bottom: 5vw;
 }
+
 
 .artist-sec1 {
   width: 35%;
@@ -940,7 +941,7 @@
 
 .artist-sec1 img {
   object-fit: contain;
-  height: 400px;
+  height: 25vw;
 }
 
 .artist-sec2 {
@@ -948,7 +949,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 2.5vw;
 }
 
 .heading-artist {
@@ -957,8 +958,8 @@
 
 .artist-name {
   color: #000;
-  font-family: Manrope;
-  font-size: 40px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 2.5vw;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -966,29 +967,30 @@
 
 .artist-tag {
   color: #aeaeae;
-  font-family: Manrope;
-  font-size: 40px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 2.5vw;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-  padding-left: 10px;
+  padding-left: 0.625vw;
 }
 
 .artist-desc {
-  margin: 0px 0px 20px 0px;
+  margin: 0vw 0vw 0.625vw 0vw;
   color: #000;
-  font-family: Inter;
-  font-size: 14px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 0.875vw;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  white-space: pre-line;
 }
 
 .artist-spotify {
-  margin: 0px;
-  padding: 0px;
-  height: 150px;
-  margin-bottom: -35px;
+  margin: 0vw;
+  padding: 0vw;
+  height: 9.375vw;
+  margin-bottom: -2.1875vw;
 }
 
 .artist-links {
@@ -999,8 +1001,64 @@
 
 .artist-link {
   object-fit: contain;
-  width: 50px;
-  height: 50px;
+  width: 3.125vw;
+  height: 3.125vw;
+}
+
+
+@media screen and (max-width: 800px) {
+  .heading-artistPage{
+    font-size: 6vw;
+  }
+  .artist-card{
+    display: inline-flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+  }
+
+  .artist-sec1{
+    width: 50%;
+  }
+  .artist-sec1 img {
+    padding-top: 0vw;
+    object-fit: contain;
+    height: 40vw;
+  }
+
+  .heading-artist{
+    justify-content: center;
+  }
+
+  .artist-sec2{
+    width: 90%;
+  }
+  
+  .artist-name{
+    font-size: 5vw;
+  }
+
+  .artist-tag{
+    font-size: 5vw;
+  }
+
+  .artist-desc{
+    font-size: 2.5vw;
+  }
+
+  .artist-spotify{
+    margin: 5vw 5vw;
+  }
+
+  .artist-links{
+    width: 100%;
+    padding-top: 10vw;
+    justify-content: space-evenly;
+  }
+  .artist-link{
+    width: 6.25vw;
+    height: 6.25vw;
+  }
 }
 
 /* ARTIST-PAGE END */
@@ -1196,28 +1254,28 @@
 .acc-heading{
   color: #ECECEC;
   font-family: Manrope;
-  font-size: 64px;
+  font-size: 4vw;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin: 0px;
-  margin-top: 20px;
+  margin: 0vw;
+  margin-top: 1.25vw;
 }
 
 .heading-cardsec{
   color: #FFF;
-  font-family: Manrope;
-  font-size: 25px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 1.5625vw;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin: 0px;
-  margin-bottom: 40px;
+  margin: 0vw;
+  margin-bottom: 2.5vw;
 }
 
 .card-section{
   height: auto;
-  margin: 50px;
+  margin: 3.125vw;
   display: flex;
   flex-direction: column;
   gap: 0px;
@@ -1226,10 +1284,10 @@
 .cards-container{
   display: flex;
   flex-wrap: wrap;
-  width: 1550px;
+  width: 96.875vw;
   align-items: flex-start;
   align-content: flex-start;
-  gap: 56px 129px;
+  gap: 3.5vw 8.125vw;
   flex-shrink: 0;
 }
 
@@ -1242,26 +1300,23 @@
 }
 
 .accHover{
+  /* all: unset; */
+  display:flex;
+  width: 16.25vw;
+  height: 23.125vw;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 1.25vw;
+  background: white;
+  padding-top: 1.25vw;
+  padding-left: 0.625vw;
+  padding-right: 0.625vw;
+  z-index:99;
+  border-radius: 1.8125vw;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
   white-space: pre-line;  
   vertical-align: bottom;
-  background: white;
-  z-index:99;
-  width: 280px;
-  height: 390px;
-  border-radius: 29px;
-  overflow: hidden;
-  width: 260px;
-  height: 370px;
-  padding-top: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-  border-radius: 29px;
-  overflow: hidden;
-  text-align: center;
-  font-size: 20px;
-  font-family: Manrope, 'sans-serif';
-  display:flex;
-  justify-content: center;
   opacity: 1;
   transition: all ease-in-out 0.4s;
   position: absolute;
@@ -1269,7 +1324,7 @@
 }
 
 .accHover p{
-  width: 270px; 
+  width: 16.875vw; 
 }
 
 .accHover{
@@ -1278,9 +1333,9 @@
 
 .acc-img{
   display: block;
-  width: 280px;
-  height: 390px;
-  border-radius: 29px;
+  width: 17.5vw;
+  height: 24.375vw;
+  border-radius: 1.8125vw;
   overflow: hidden;
 }
 
@@ -1292,8 +1347,8 @@
 .acc-name{
   color: #FFF;
   text-align: center;
-  font-family: Manrope;
-  font-size: 30px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 1.875vw;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -1302,11 +1357,53 @@
 
 .acc-tag{
   color: #FFF;
-  font-family: Manrope;
-  font-size: 23px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 1.25vw;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
+  text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+  .acc-heading{
+    font-size: 8vw;
+  }
+  .heading-cardsec{
+    text-align: center;
+    font-size: 3.125vw;
+    padding-bottom: 3vw;
+  }
+
+  .cards-container{
+    justify-content: space-evenly;
+    gap: 7vw 10vw;
+  }
+
+  .acc-img{
+    width: 35vw;
+    height: 48.75vw;
+  }
+
+  .accHover{
+    width: 32.5vw;
+    height: 46.25vw;
+    font-size: 2.5vw;
+    padding-top: 2.5vw;
+    padding-left: 1.25vw;
+    padding-right: 1.25vw;
+    border-radius: 3.625vw;
+  }
+
+  .acc-name{
+    font-size: 3vw;
+    font-weight: 600;
+  }
+
+  .acc-tag{
+    font-size: 2.5vw;
+    font-weight: 200;
+  }
 }
 
 .accoladesCard2{

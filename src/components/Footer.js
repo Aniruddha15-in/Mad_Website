@@ -12,9 +12,9 @@ const Footer = () => {
     <>
     <div className='footer'>
       <div className='footer-sec1'>
-        <img src={madLogo} className='madLogo-footer' />
+        <img src={madLogo} className='madLogo-footer' alt="madLogo"/>
         <div>
-          <img className='email-footer' src={emailFooter} />
+          <img className='email-footer' src={emailFooter} alt="emailfooter"/>
           <p>madhurimamusicsociety@dtu.ac.in</p>
         </div>
       </div>
@@ -34,9 +34,9 @@ const Footer = () => {
         </p>
         <a><span className='span1-footer'>Email</span><span className='span2-footer'>: madhurimamusicsociety@dtu.ac.in</span></a>
         <div className='icons-footer'>
-          <img src={ig} className='icon-footer' />
-          <img src={li} className='icon-footer' />
-          <img src={yt} className='icon-footer' />
+          <img src={ig} className='icon-footer' alt="ig"/>
+          <img src={li} className='icon-footer' alt="li"/>
+          <img src={yt} className='icon-footer' alt="yt"/>
         </div>
       </div>
     </div>
@@ -52,16 +52,16 @@ const Footer = () => {
       </div>
       
       <div className='footer-sec2Mobile'>
-        <img src={logoMobile} className='madLogo-footer' />
+        <img src={logoMobile} className='madLogo-footer' alt="logoMobile"/>
         <div className='sec2-segment2'>
           <p className='p-segment2'>Follow Madhurima</p>
           <div className='icons-footer'>
-            <img src={ig} className='icon-footer' />
-            <img src={li} className='icon-footer' />
-            <img src={yt} className='icon-footer' />
+            <img src={ig} className='icon-footer' alt="ig"/>
+            <img src={li} className='icon-footer' alt="li"/>
+            <img src={yt} className='icon-footer' alt="yt"/>
           </div>
           <div className='email-footer'>
-            <img src={emailFooter} />
+            <img src={emailFooter} alt="emailfooter"/>
             <p>madhurimamusicsociety@dtu.ac.in</p>
           </div>
         </div>

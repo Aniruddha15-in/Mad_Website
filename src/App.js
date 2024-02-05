@@ -8,7 +8,6 @@ import Doremipa from "./pages/Doremipa";
 import Events from "./pages/Events";
 import Footer from "./components/Footer";
 import "./App.css";
-import AccoladesCard from "./components/AccoladesCard";
 
 function App() {
   return (

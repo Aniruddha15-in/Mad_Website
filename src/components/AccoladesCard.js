@@ -4,7 +4,7 @@ const AccoladesCard = ({ image, name, tag, wins }) => {
 
   return (
     <div className='accoladesCard'>
-      <img src={image} className='acc-img' />
+      <img src={image} className='acc-img' alt={`${name}`}/>
       <div className='accHover'>{wins}</div>
       <div>
         <p className='acc-name'>{name}</p>

@@ -743,7 +743,7 @@
   justify-content: space-evenly;
   align-items: center;
   height: 6.5vw;
-  overflow-x: hidden;
+  overflow: hidden;
   padding: 6.25vw 2.5vw; 
 }
 

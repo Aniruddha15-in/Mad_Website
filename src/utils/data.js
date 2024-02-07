@@ -175,7 +175,7 @@ export const westernSolos = [
     image: saksham,
     name: 'Saksham Sehgal',
     tag: 'B. Tech. (EP)',
-    wins: '3rd - Lady Irwin College'
+    wins: '3rd - Lady Irwin College\n1st - Kalamkaar, DTU'
   },
 ]
 
@@ -220,7 +220,7 @@ export const band = [
     image: dhoomketu,
     name: 'Dhoomketu',
     tag: 'Junior Band',
-    wins: 'NIFT, Delhi - 1st Position'
+    wins: 'NIFT, Delhi - 1st Position\nBharti Vidyapeeth, IPU - 2nd Position\nBattle of Bands, Pacific Mall - 2nd Position'
   },
 ]
 

@@ -5,7 +5,7 @@ import sponsor2 from "../assets/sponsor-logo2.png";
 import sponsor3 from "../assets/sponsor-logo3.png";
 import sponsor4 from "../assets/sponsor-logo4.png";
 import sponsor5 from "../assets/sponsor-logo5.png";
-import IGcomponent from "../components/IGcomponent";
+// import IGcomponent from "../components/IGcomponent";
 import AboutUsCard from "../components/AboutUsCard";
 import saksham from "../assets/home-about.png";
 import sakshammobile from "../assets/home-about-mobile.png";
@@ -38,11 +38,11 @@ const Home = () => {
           <img src={sponsor5} alt="sponsor5" className="current-sponsor" />
         </div>
       </div>
-      <div className="ig-embed">
+      {/* <div className="ig-embed">
         <div className="ig-small">
           <IGcomponent/>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

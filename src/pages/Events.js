@@ -1,18 +1,20 @@
-import React from 'react'
-import Carousel from '../components/Carousel'
-import diwali from '../assets/events/diwali mela.jpg'
-import freshers from '../assets/events/dtu freshers.jpg'
-import flashmob from '../assets/events/flashmob.jpg'
-import foodfest from '../assets/events/food festival.jpg'
-import kalamkaar from '../assets/events/kalamkaar.jpg'
-import cadence from '../assets/events/cadence.jpg'
-import swartantrata from '../assets/events/Swartantrata.jpg'
+import React from 'react';
+import Carousel from '../components/Carousel';
+import diwali from '../assets/events/diwali mela.png';
+import freshers from '../assets/events/freshers.png';
+import g20 from '../assets/events/g20.png';
+import flashmob from '../assets/events/flashmob.png';
+import foodfest from '../assets/events/food festival.png';
+import kalamkaar from '../assets/events/kalamkaar.jpg';
+import cadence from '../assets/events/cadence.jpg';
+import swartantrata from '../assets/events/Swartantrata.jpg';
 const Events = () => {
   const images = [
     diwali,
     freshers,
     flashmob,
-    foodfest
+    foodfest,
+    g20
   ];
   return (
     <>
@@ -43,10 +45,10 @@ const Events = () => {
             <img className="IMG" src={kalamkaar} alt="kalamkaar" />
             <div className="div-2">
               <div className="group">
-                <div className="text-wrapper">Kalamkaar</div>
+                <div className="text-wrapper">Kalamkar</div>
               </div>
               <p className="text-wrapper-2">
-                Madhurima collaborates with Yuvaan - the Literary Fest of DTU to host an inter-college songwriting competition for budding songwriters.
+              Madhurima collaborates with Yuvaan - the literary fest of DTU to host an inter- college songwriting competition for budding songwriters. This collaborative effort aims to cultivate and showcase the burgeoning talent of aspiring songwriters from various colleges. Participants are invited to unleash their creativity and lyrical prowess, crafting original compositions that captivate and inspire. The competition serves as a dynamic platform for emerging artists to express themselves, fostering a community of musical innovation and artistic exploration. Through this partnership, Madhurima and Yuvaan strive to celebrate the power of words and melodies.
               </p>
 
             </div>
@@ -61,7 +63,7 @@ const Events = () => {
                 <div className="text-wrapper">Swartantrata</div>
               </div>
               <p className="text-wrapper-2">
-                Missing Info
+              Swartantra, an esteemed tradition upheld by Madhurima, is an annual patriotic song competition held in commemoration of Independence Day. This cherished event serves as a platform for the passionate individuals of DTU to express their profound love and patriotism through melodious voice. Open to all students of DTU, Swartantra attracts a remarkable influx of participants eager to share their heartfelt sentiments. The competition, graced by esteemed dignitaries and faculty members, fosters a sense of unity and national pride within the college community. Winners of Swartantra are not only celebrated for their musical talents but also rewarded with  cash prizes, recognizing their exceptional talent.
               </p>
 
             </div>

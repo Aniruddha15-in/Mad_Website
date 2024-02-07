@@ -261,12 +261,12 @@
 
 @media screen and (max-width: 640px) {
   .subcategorycard {
-    width: 30vw;
+    width: 35vw;
     margin: 5vw;
   }
 
   .subcategorycard .hovered{
-    width: 30vw;
+    width: 35vw;
   }
   .overlay .info{
     font-size: 3vw;
@@ -1079,7 +1079,7 @@
 .artist-name {
   color: #000;
   font-family: "Manrope-Regular", Helvetica;
-  font-size: 2.5vw;
+  font-size: 2vw;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -1088,7 +1088,7 @@
 .artist-tag {
   color: #aeaeae;
   font-family: "Manrope-Regular", Helvetica;
-  font-size: 2.5vw;
+  font-size: 2vw;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
@@ -1157,11 +1157,11 @@
   }
   
   .artist-name{
-    font-size: 5vw;
+    font-size: 4vw;
   }
 
   .artist-tag{
-    font-size: 5vw;
+    font-size: 4vw;
   }
 
   .artist-desc{
@@ -1210,7 +1210,7 @@
   margin: 3.1vw auto;
   position: relative;
   width: 72.7vw;
-  height: 29vw;
+  height: auto;
   background-color: #ececec;
   border-radius: 1.8vw;
   overflow: hidden;
@@ -1301,7 +1301,7 @@
     left: 50%;
   }
   .event-card .text-wrapper-2{
-    font-size: 2vw;
+    font-size: 1.8vw;
     margin-right: 18vw;
   }
 }

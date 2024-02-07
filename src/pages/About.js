@@ -6,7 +6,10 @@ import CouncilCard from '../components/CouncilCard'
 import noel from "../assets/noel-about.png";
 import noelmobile from "../assets/noel-about-mobile.png";
 
-import duality from '../assets/acts/duality.jpg'
+import duality from '../assets/acts/duality.png';
+import acapella from '../assets/acts/acapella.png';
+import choir from '../assets/acts/choir.png';
+import dhoomketu from '../assets/acts/dhoomketu.png';
 
 import anubhav from '../assets/council/AnubhavF-100.jpg'
 import sabya from '../assets/council/SabyaF-100 1.jpg'
@@ -17,25 +20,20 @@ import rajat from '../assets/council/RajatF-100.jpg'
 
 const About = () => {
   const images = [
-    duality
+    duality,
+    acapella,
+    choir,
+    dhoomketu
   ];
   return (
     <div className='about'>
       
       <div style={{ paddingTop: '150px' }}>
-        <Carousel images = {images} acts={2}/>
+        <Carousel images = {images} acts={-1}/>
       </div>
 
     
-      <AboutUsCard image={noel} imagemobile={noelmobile} desc="DoReMiPa is the official annual inter-college music competition of
-          Delhi Technological University(DTU) organized by Madhurima - the
-          music society of DTU, which is held under ENGIFEST- the largest
-          cultural fest of north India. DoReMiPa includes six musical
-          competitions that showcase a diverse array of musical styles,
-          encompassing Indian, Western, and Instrumental genres and draws
-          participation from all major colleges in the Delhi NCR as well as
-          other parts of India. The competition is judged by professional
-          musicians who are well established within their respective domains."/>
+      <AboutUsCard image={noel} imagemobile={noelmobile} desc="Madhurima is a student-led society of Delhi Technological University that aims to promote and celebrate music among the student community. Madhurima provides a platform for talented musicians to showcase their skills and explore their passion for music."/>
 
       <div>
         <div className='council-text'>COUNCIL</div>

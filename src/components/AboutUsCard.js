@@ -1,7 +1,7 @@
 import React from 'react';
 import useWindowDimensions from "../utils/windowdimensions";
 
-const AboutUsCard = ({image, imagemobile, desc, check}) => {
+const AboutUsCard = ({image, imagemobile, desc, check, regbtn}) => {
   const {width} = useWindowDimensions();
   return (
     <div className="about-home">
@@ -18,7 +18,7 @@ const AboutUsCard = ({image, imagemobile, desc, check}) => {
           <p className="p3content-home">
             {desc}
           </p>
-          <button className="but-home"><a href={`/doremipa`}>Register Now</a></button>
+          {(regbtn && <button className="but-home"><a href={`/doremipa`}>Register Now</a></button>)}
         </div>
       </div>
   )

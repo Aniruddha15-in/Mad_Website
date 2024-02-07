@@ -6,7 +6,13 @@ import tim from "../assets/subcategory/Prelude-100.jpg"
 import vrind from "../assets/subcategory/Vrind-100.jpg"
 import rahman from "../assets/subcategory/Engi Idol-100.jpg"
 import SubCategoryCard from '../components/SubCategoryCard'
-import hero from "../assets/Doremipa-hero.jpg"
+import hero from "../assets/Doremipa-hero.png"
+
+import sponsor1 from "../assets/sponsor-logo1.png";
+import sponsor2 from "../assets/sponsor-logo2.png";
+import sponsor3 from "../assets/sponsor-logo3.png";
+import sponsor4 from "../assets/sponsor-logo4.png";
+import sponsor5 from "../assets/sponsor-logo5.png";
 
 const Doremipa = () => {
   return (
@@ -66,6 +72,18 @@ const Doremipa = () => {
         <SubCategoryCard alt="Prelude" src={tim} link={`https://docs.google.com/forms/d/1tsTUzdvBI5JorIBM2dc7VjQ0tTozqo8I0k5pctps7Ms/viewform`} />
         <SubCategoryCard alt="Vrind" src={vrind} link={`https://docs.google.com/forms/d/1FKvta2mzv_uG1B-qAO6XNwemvaVirSWxtHLm4CR-dQE/viewform`} />
         <SubCategoryCard alt="Engi Idol" src={rahman} link={`https://docs.google.com/forms/d/e/1FAIpQLScM3WZGY9Mn0R2O32sBrcYUDTpoYxCrQlGmYZbykegkg48ttw/viewform`} />
+      </div>
+
+
+      <div className="sponsors">
+        <p className="content-sponsors">Past Sponsors</p>
+        <div className="current-sponsors">
+          <img src={sponsor1} alt="sponsor1" className="current-sponsor" />
+          <img src={sponsor2} alt="sponsor2" className="current-sponsor" />
+          <img src={sponsor3} alt="sponsor3" className="current-sponsor" />
+          <img src={sponsor4} alt="sponsor4" className="current-sponsor" />
+          <img src={sponsor5} alt="sponsor5" className="current-sponsor" />
+        </div>
       </div>
     </div>
   )

@@ -7,6 +7,7 @@ import raeyna from '../assets/artists/raeyna.png';
 import jangidartist from '../assets/artists/jangid.png';
 import sehgal from '../assets/artists/sehgal.png';
 import manas from '../assets/artists/manas.png';
+import shikhar from '../assets/artists/shikhar.png';
 
 
 import sabya from "../assets/accolades/sabya.png";
@@ -21,13 +22,15 @@ import akarshita from '../assets/accolades/akarshita.png';
 import saksham from '../assets/accolades/saksham.png';
 import jangid from '../assets/accolades/jangid.png';
 import jayant from '../assets/accolades/jayantsaksham.png';
+import anubhav from '../assets/accolades/anubhav.png';
+import sarthak from '../assets/accolades/sarthak.png';
 
 export const artist = [
   {
     name: 'BHAU',
-    tag: 'Artist, Producer',
+    tag: 'Artist, Producer, Guitarist, Educator',
     image: bhau,
-    desc: "BHAU is an artist and music producer from Jammu, India, who is making waves in the modern Dogri music scene. He skillfully blends a range of genres, from Alternative R&B to Hip-Hop, Psychedelia, Soul, Funk, and Progressive Rock, to create a unique and diverse. His Dogri debut album, 'Aadataan,' was released in 2021 and demonstrated his growth and versatility as an artist and received commercial and critical acclaim all over the world.In the present, BHAU is collaborating with talented artists such as  DilliVerse and Bharath.  BHAU also produced ",
+    desc: "BHAU is an artist and music producer from Jammu, India, who is making waves in the modern Dogri music scene. He skillfully blends a range of genres, from Alternative R&B to Hip-Hop, Psychedelia, Soul, Funk, and Progressive Rock, to create a unique and diverse. His Dogri debut album, 'Aadataan,' was released in 2021 and demonstrated his growth and versatility as an artist and received commercial and critical acclaim all over the world. In the present, BHAU is collaborating with talented artists such as  DilliVerse and Bharath and has also produced a track for Yo Yo Honey Singh . He also consistently puts out creatively mellifluous guitar covers on Instagram and also provides online guitar lessons.",
     spotifyEmbed: "https://open.spotify.com/embed/track/79V71JqmNlpAo1ASRVRAeN?utm_source=generator",
     ig: "https://www.instagram.com/rsbhau/",
     yt: "https://www.youtube.com/channel/UCSXv4zmSl8iCkgVrxQ9P7hw",
@@ -35,7 +38,7 @@ export const artist = [
   },
   {
     name: 'Mayank Mittal',
-    tag: 'Artist, Producer',
+    tag: 'Artist, Vocalist, Educator',
     image: mayank,
     desc: 'Mayank Mittal AKA Eternalramblings is a paradoxical circus in a library – a fusion of a chaotic artistic soul and curious scientific mind. He seeks to combine rollercoaster emotions and a carousal of uncanny observations with insightful song writing, to tell you stories that fill an emotional vacuum and make you ponder.\n\nMittal is a part of the powerhouse pop-rock band KAPOW! and has already released a multitude of songs with the band in English and Hindi. He is famous for his on-stage charisma and euphonious voice. He has also collaborated with other reputed acts such as the Anirudh Varma Collective and Parikrama.',
     spotifyEmbed: 'https://open.spotify.com/embed/track/67BI0P4OK8KbIpIEaA7xE1?utm_source=generator',
@@ -45,9 +48,9 @@ export const artist = [
   },
   {
     name: 'The Shady Kid',
-    tag: 'Artist, Producer',
+    tag: 'Artist, Vocalist, Educator',
     image: shady,
-    desc: 'Thats why I paint',
+    desc: 'Suhail Zubair, popularly known as The Shady Kid, has carved out a distinct presence in the music realm since his college graduation in 2018. His debut single "2999," a collaboration with BHAU in 2020, marked his arrival with its unique sound and concept. He released his first album "Through My Lens" in 2022, showcasing his versatility and storytelling prowess. Alongside his music career, Zubair shares his expertise as a trained vocalist through personalized one-on-one lessons and workshops, nurturing aspiring talents. With a blend of talent, dedication, and innovation, The Shady Kid continues to make waves, promising an exciting future in music.',
     spotifyEmbed: "https://open.spotify.com/embed/track/2CpMRGyLiNTWouMn8NkFrA?utm_source=generator",
     ig: "https://www.instagram.com/the.shadykid/",
     yt: "https://www.youtube.com/@theshadykid3630",
@@ -57,7 +60,7 @@ export const artist = [
     name: 'Bharath',
     tag: 'Artist, Producer',
     image: bharath,
-    desc: 'Thats why I paint',
+    desc: 'Bharath Rajeevan is a multi-genre artist, music producer, composer, songwriter and bassist. One of the most talented musicians to come out of Madhurima, Bharath has had a diverse range of experience as a musician. He has played bass for bands like "Above the Shadows" and "Kapow", produced countless musicians and also helped artists with their live sound. He was one of the founding members of the band "Kapow" and also shaped their sound through his songwriting and composing skills. Currently he is making waves in the independent music scene of India collaborating with artists such as SHAHI, Samad Khan, Heer, BHAU and Raeyna.',
     spotifyEmbed: "https://open.spotify.com/embed/track/3sLVQHa6ivHL6eXO2N5NTw?utm_source=generator",
     ig: "https://www.instagram.com/bharath.mp3/",
     yt: "",
@@ -67,7 +70,7 @@ export const artist = [
     name: 'Vinayak Arora',
     tag: 'Artist, Producer',
     image: vinayak,
-    desc: 'Thats why I paint',
+    desc: 'Vinayak Arora is a full fledged musician who can play multiple instruments, sing a vast range of genres and create magic with his creative production. During his time in Madhurima, Vinayak won countless solo competitions and led the A Capella group to many victories. Vinayak started singing at the age of six when his first teacher Usha Mankotia taught him his first song. Vinayak has also trained in Vocals under Shri. Sudhanshu Bahuguna. He has released three singles  "Aadmi Bann Zara", "F*ck You", "Fuzzy Cuddly Scrampadoodlicious" and "Khumaar" all of which show his talent and range as a musician. He has also produced/mixed bands like Antariksh.',
     spotifyEmbed: "https://open.spotify.com/embed/track/2pZwlQWIfXTNZaNU5SRpOX?utm_source=generator",
     ig: "https://www.instagram.com/vinayak.arora/",
     yt: "https://www.youtube.com/@VinayakArora",
@@ -77,7 +80,7 @@ export const artist = [
     name: 'Raeyna',
     tag: 'Artist, Producer',
     image: raeyna,
-    desc: 'Thats why I paint',
+    desc: 'Raeyna is an artist who sings to make you cry. The artist’s name comes from the latin word “Regina” meaning Queen which is a sign of royalty and therefore, highlights a certain sense of detachment from the rest of the population. It is symbolic of the inability of expressing oneself in traditional human notions and thus, using different artistic avenues to communicate. It represents a metaphor: a way of looking into our lives and answering the question of who we truly are and our outward life and choices as a definition of our rather closeted inner self. A fluent writer in both Hindi and English, he wishes to transform the Indie Music Industry with his fresh perspective on Indian Pop, RnB, and Hip-Hop music and hopes to work with artists internationally.',
     spotifyEmbed: "https://open.spotify.com/embed/track/4Yn8DHwYgXKbNXsG3rJDeM?utm_source=generator",
     ig: "https://www.instagram.com/raeyna/",
     yt: "https://www.youtube.com/@raeyna1016",
@@ -87,7 +90,7 @@ export const artist = [
     name: 'Abhishek Vijay',
     tag: 'Artist',
     image: jangidartist,
-    desc: 'Thats why i paint',
+    desc: 'Abhishek Vijay, a boundary-breaking artist renowned for his debut single "Khumaar". Abhishek has carved a niche for himself with a distinctive fusion that seamlessly blends the timeless traditions of Hindustani classical with the contemporary vibes of electronic, rock, and classical elements. While not professionally trained, Abhishek’s journey began in childhood, when his natural inclination towards melody and composition became evident. His musical prowess reached new heights during his tenure as the president of Madhurima, a pivotal role where he orchestrated the formation of a band that went on to clinch numerous victories in competitions. Currently crafting a funk ghazal, he continues to redefine the boundaries of fusion music.',
     spotifyEmbed: "https://open.spotify.com/embed/track/6Bzjz8l59MJUPMW1doUGMu?utm_source=generator",
     ig: "https://www.instagram.com/abhishek.vijay_/",
     yt: "https://www.youtube.com/channel/UCknezJETXI_jKBitZ7QSFjA",
@@ -97,7 +100,7 @@ export const artist = [
     name: 'Saksham Sehgal',
     tag: 'Artist',
     image: sehgal,
-    desc: 'Thats why i paint',
+    desc: 'Capturing the hearts of listeners worldwide, Saksham Sehgal boasts a unique and versatile voice. His debut single ‘Baaki’ released in 2021 and received love from all parts of the country. His next single  ‘Sirf Tujhse’ showed his brilliance as a songwriter and achieved widespread critical and commercial acclaim. His songs have gained popularity in the indie- music scene through the word of mouth of his listeners, and have more than 500k combined streams. Post the success of ‘Sirf Tujhse’ he has released official merchandise for his songs and announced the release of his third and latest single ‘Guldaste’ which will release on 25th of February.',
     spotifyEmbed: "https://open.spotify.com/embed/track/5zICn0hbsUvZBpHeffRQcj?utm_source=generator",
     ig: "https://www.instagram.com/sakshamsehgal43/",
     yt: "https://www.youtube.com/channel/UCwofb-HVmF7g1siXPWsbDoQ",
@@ -114,15 +117,25 @@ export const artist = [
     spotify: "https://open.spotify.com/artist/1g3a4yCY2rjZY8fq5YqCHy",
   },
   {
-    name: '',
+    name: 'Shikhar Agarwal',
+    tag: 'Flautist',
+    image: shikhar,
+    desc: 'Shikhar Agarwal is a Flautist who has trained under Shri. Kailash Sharma since he was 10 years old. He has been performing on stage, radio and TV recording as a soloist, in orchestras, band collaborations since childhood. Shikhar graduated in 2018 and left his job to pursue music as a full time career. He has played along with a diverse range of groups ranging from alt-rock bands to solo classical events.\nShikhar is currently part of ‘the Taqdeer Collective’, a group which brings out their own renditions of classic tunes, and have been touring and performing gigs all across India.',
+    spotifyEmbed: "",
+    ig: "https://www.instagram.com/shikhar_flute/",
+    yt: "https://www.youtube.com/@taqdeermusic",
+    spotify: "",
+  },
+  {
+    name:"",
     tag: '',
     image: '',
     desc: '',
-    spotifyEmbed: "",
-    ig: "",
-    yt: "",
-    spotify: "",
-  },
+    spotifyEmbed: '',
+    ig: '',
+    yt: '',
+    spotify: '',
+  }
 
 
 ];
@@ -147,7 +160,7 @@ export const westernSolos = [
     wins: '1st - Sri Aurobindo College\n1st - Ramjas College\n1st - PGDAV College\n1st - Gargi College\n1st - CVS\n1st - JMC\n2nd - Swami Shraddhanand\n3rd - Dyal Singh College\n3rd - SSCBS\n3rd - IIT Delhi'
   },
   {
-    image: sabya,
+    image: anubhav,
     name: 'Anubhav Dhyani',
     tag: 'BTech (Mech Engg.)',
     wins: '3rd - Deshbandhu College'
@@ -168,7 +181,7 @@ export const westernSolos = [
 
 export const indianSolos = [
   {
-    image: sabya,
+    image: sarthak,
     name: 'Sarthak',
     tag: 'B. Tech. (EE)',
     wins: '1st - Shivaji College\n1st - UCMS\n1st - PGDAV (E)\n1st - ADGITM\n1st - Amity University, Noida\n1st - MAIT\n1st - Bharati College\n1st - IGDTUW\n2nd - Mata Sundari College\n2nd - BVIMR\n3rd - Dyal Singh College\nSpecial Mention AND College\nSpecial Mention IIT Delhi'
@@ -194,12 +207,6 @@ export const instrumental = [
     tag: 'B. Tech. (MCE)',
     wins: '1st - Sri Aurobindo College\n1st - IIIT Delhi\n2nd - Deshbandhu College\nSpecial Mention Ramjas'
   },
-  {
-    image: sabya,
-    name: 'Madhav',
-    tag: 'B. Tech. (Mech Engg.)',
-    wins: '2nd - NSUT\n2nd - PGDAV College'
-  }
 ]
 
 export const band = [

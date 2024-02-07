@@ -6,7 +6,7 @@ import tim from "../assets/subcategory/Prelude-100.jpg"
 import vrind from "../assets/subcategory/Vrind-100.jpg"
 import rahman from "../assets/subcategory/Engi Idol-100.jpg"
 import SubCategoryCard from '../components/SubCategoryCard'
-import hero from "../assets/Doremipa-hero.jpg"
+import hero from "../assets/Doremipa-hero.png"
 
 import sponsor1 from "../assets/sponsor-logo1.png";
 import sponsor2 from "../assets/sponsor-logo2.png";

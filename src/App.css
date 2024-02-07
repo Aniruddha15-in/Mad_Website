@@ -551,6 +551,7 @@
 .about-home img {
   width: 100%;
   border-radius: 2vw 0vw 0vw 2vw;
+  margin-left: -1px;
 }
 
 

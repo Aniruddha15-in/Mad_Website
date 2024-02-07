@@ -45,9 +45,9 @@ const Footer = () => {
         </p>
         <a><span className='span1-footer'>Email</span><span className='span2-footer'>: madhurimamusicsociety@dtu.ac.in</span></a>
         <div className='icons-footer'>
-          <img src={ig} className='icon-footer' alt="ig"/>
-          <img src={li} className='icon-footer' alt="li"/>
-          <img src={yt} className='icon-footer' alt="yt"/>
+          <a href='https://www.instagram.com/madhurima.dtu/' target='_blank'><img src={ig} className='icon-footer' alt="ig"/></a>
+          <a href='https://www.linkedin.com/company/madhurimadtu/mycompany/' target='_blank'><img src={li} className='icon-footer' alt="li"/></a>
+          <a href='https://www.youtube.com/@MadhurimaDTU' target='_blank'><img src={yt} className='icon-footer' alt="yt"/></a>
         </div>
       </div>
     </div>
@@ -77,9 +77,9 @@ const Footer = () => {
         <div className='sec2-segment2'>
           <p className='p-segment2'>Follow Madhurima</p>
           <div className='icons-footer'>
-            <img src={ig} className='icon-footer' alt="ig"/>
-            <img src={li} className='icon-footer' alt="li"/>
-            <img src={yt} className='icon-footer' alt="yt"/>
+            <a href='https://www.instagram.com/madhurima.dtu/' target='_blank'><img src={ig} className='icon-footer' alt="ig"/></a>
+            <a href='https://www.linkedin.com/company/madhurimadtu/mycompany/' target='_blank'><img src={li} className='icon-footer' alt="li"/></a>
+            <a href='https://www.youtube.com/@MadhurimaDTU' target='_blank'><img src={yt} className='icon-footer' alt="yt"/></a>
           </div>
           <div className='email-footer'>
             <img src={emailFooter} alt="emailfooter"/>

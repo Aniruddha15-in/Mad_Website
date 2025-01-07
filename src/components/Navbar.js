@@ -1,7 +1,6 @@
 import React, {useState, useEffect} from 'react'
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import navLogo from "../assets/logo-nav.png";
-import { useLocation } from 'react-router-dom';
 import dropbtn from "../assets/dropbtn.png";
 import dropbtn2 from "../assets/dropbtn2.png";
 
@@ -9,7 +8,7 @@ const Navbar = () => {
 
   const currentUrl = window.location.href;
 
-  const currUrl = useLocation();
+  
   const [scrolled, setScrolled] = useState(false);
 
   const [dropbutton, setDropbutton] = useState(false);
@@ -33,7 +32,7 @@ const Navbar = () => {
     <div className='navbar'>
       <div className={`${scrolled ? "nav-dontdisplay" : "nav-display"}`}>
         <div className='navbar-sec1'>
-          <img src={navLogo} />
+          <img src={navLogo} alt="Navigation Logo" />
           <Link onClick={() => {
           window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
         }} to="/" className="navbar-sec1-link">MADHURIMA</Link>
@@ -90,6 +89,5 @@ const Navbar = () => {
   )
 }
 
-// {`${currentUrl === "http://localhost:3000/doremipa" ? "navLink-highlight" : "navbar-link" }`}
 
 export default Navbar
